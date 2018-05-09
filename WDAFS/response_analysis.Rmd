@@ -1,0 +1,112 @@
+---
+title: "Response Analysis"
+author: "Jeanette Clark"
+date: "5/9/2018"
+output: html_document
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,message = F, warning = F)
+```
+
+```{r}
+library(dplyr)
+library(stringi)
+library(ggplot2)
+library(cowplot)
+library(RColorBrewer)
+```
+
+
+```{r, fig.width=8, fig.height=12}
+df <- read.csv("~/Desktop/AKOATS_poster/AKOATS_contact_results.csv", stringsAsFactors = F, blank.lines.skip = T)
+
+
+df <- df[1:47, 1:9]
+
+df_agg <- df %>% group_by(Submission.Sort) %>%
+    summarize(num = length(Contact_person))
+
+df_agg$Submission.Sort[df_agg$Submission.Sort == 1] <- "Data recieved"
+df_agg$Submission.Sort[df_agg$Submission.Sort == 2] <- "Responded, no follow up"
+df_agg$Submission.Sort[df_agg$Submission.Sort == 3] <- "Wrong contact"
+df_agg$Submission.Sort[df_agg$Submission.Sort == 4] <- "No response"
+
+p1 <- ggplot(df_agg, aes(x = Submission.Sort, y = num, fill = Submission.Sort)) +
+    geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Number of responses") +
+    #ggtitle("Results of e-mailed request for temperature data") +
+    theme_bw() + 
+    theme(text = element_text(size = 24),
+          axis.title.x=element_blank(),
+          axis.text.x=element_blank(),
+          axis.ticks.x=element_blank(), 
+          legend.position = "none") +
+    scale_fill_manual(values = c("dark green", "gold", "gray", "dark red"))
+
+    
+#ggsave("~/Documents/Projects Data/stream_temperature/WDAFS/email_responses.png", plot = p, device = "png", width = 12, height = 8, units = "in")
+
+ak1 <- read.csv("~/Desktop/AKOATS_poster/AKOATS_current_historic_monitoringsites.csv", stringsAsFactors = F)
+ak1 <- select(ak1, Contact_person, seq_id, Agency, SourceName)
+ak1$Contact_person <- stri_trim_both(ak1$Contact_person)
+
+df <- select(df, Contact_person, Submission.Sort)
+df$Contact_person <- stri_trim_both(df$Contact_person)
+
+ak <- left_join(ak1, df)
+ak$Submission.Sort[which(ak$Contact_person == "Michael Carey")] <- 1
+
+#we have two different sheets of contacts here. It looks like the following people never got emailed, because the AKOATS contact sheet was updated after the initial emails were sent
+#"Jeff Davis"     "Susan Gray"     "Ashley Dunker"  "Molly Kemp"     "Nate Catterson" "Susan Oehlers"  "Ariel Cummings"
+ak <- subset(ak, is.na(Submission.Sort) == F)
+
+
+ak_agg <- ak %>% group_by(Submission.Sort) %>%
+  summarize(num = length(Submission.Sort))
+
+ak_agg$Submission.Sort[ak_agg$Submission.Sort == 1] <- "Data recieved"
+ak_agg$Submission.Sort[ak_agg$Submission.Sort == 2] <- "Responded, no follow up"
+ak_agg$Submission.Sort[ak_agg$Submission.Sort == 3] <- "Wrong contact"
+ak_agg$Submission.Sort[ak_agg$Submission.Sort == 4] <- "No response"
+
+p2 <- ggplot(ak_agg, aes(x = Submission.Sort, y = num, fill = Submission.Sort)) +
+    geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Number of sites") +
+    #ggtitle("Results of e-mailed request for temperature data") +
+    theme_bw() + 
+    theme(text = element_text(size = 24), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
+    scale_fill_manual(values = c("dark green", "gold", "gray", "dark red"))
+
+p <- plot_grid(p1, p2, align = "hv", ncol = 1)
+
+print(p)
+    
+ggsave("~/Documents/Projects Data/stream_temperature/WDAFS/responses.png", plot = p, device = "png", width = 8, height = 12, units = "in")
+
+```
+
+
+```{r}
+ag <- read.csv("~/Desktop/AKOATS_poster/Freq_AKOATS_byagency.csv")
+ag <- ag[1:12, ]
+
+colourCount = length(unique(ag$Agency))
+getPalette = colorRampPalette(brewer.pal(colourCount, "Set1"))
+
+p <- ggplot(ag, aes(x = Agency, y = Monitoring.Sites, fill= Agency)) +
+    geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Number of sites") +
+    #ggtitle("Results of e-mailed request for temperature data") +
+    theme_bw() + 
+    theme(text = element_text(size = 24), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
+    scale_fill_manual(values = getPalette(colourCount))
+
+print(p)
+ggsave("~/Documents/Projects Data/stream_temperature/WDAFS/Agencies.png", plot = p, device = "png", width = 8, height = 5, units = "in")
+  
+```
