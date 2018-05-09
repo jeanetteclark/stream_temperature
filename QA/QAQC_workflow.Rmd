@@ -1,0 +1,83 @@
+---
+title: "Stream temp data QAQC workflow"
+date: 5/3/18
+output: html_document
+---
+
+Some stream temperature data were QC'ed by NCEAS; each site's data was plotted (temperature over time). Obvious outliers, data that measured air temperatures, and constant readings of 0 degrees Celsius indicating the logger was frozen in ice over the winter were given a '0' (false) Boolean value in the "UseData"" attribute. The data QC'ed prior to NCEAS obtaining data were only given '0' for missing "sampleDate" and "sampleTime" information. 
+
+Outliers were spotted and removed easily, but data that measured air temperatures and the frozen logger temperatures were explicitly told to us by the contact who submitted the data. The QAQC process is not perfectly precise, especially if the exact time range of questionable data was not provided; then we flagged data in the manner outlined below. If the exact time range of questionable data was given, then those data were flagged based on their date/time attribute using simple R functions. 
+
+
+## Preliminary formatting
+Let's use [this](https://github.nceas.ucsb.edu/NCEAS/sasap-data/blob/master/data-processing/Stream%20Temperature/NPS_KristaBartz/1936_formatting.R) data processing script as an example.
+
+The first step was to read in the data as a data frame and do some preliminary formatting so that I had two columns: "SampleDateTime" and "Temperature". I then used `strptime` to enable converting "SampleDateTime" data between character representations and objects of classes "POSIXct" representing calendar dates and times.
+
+```{r, eval = F}
+library(tidyr)
+
+t <- read.csv("/home/stao/my-sasap/168_streamTemp_NPS_SW/raw2/KATM_idavc_stream_water_20170910raw.csv", 
+              sep = ",",
+              na.strings = "", 
+              strip.white = T,
+              skip = 1)
+
+t <- t[,-(1)]
+
+colnames(t) <- c('SampleDateTime', 'Temperature')
+
+t$SampleDateTime <- strptime(as.character(t$SampleDateTime), "%m/%d/%y %I:%M:%S %p")
+```
+
+## Flagging data
+Data fellow Mitch wrote this [FlagData function](https://github.nceas.ucsb.edu/NCEAS/sasap-data/blob/master/data-processing/Stream%20Temperature/FlagData.R) which allows us to flag data by selecting it on a plot. Before the app can be run, the "SampleDateTime" data needs to be set as objects of class "POSIXct" and a time scale origin set. Then run the function on your dataset. 
+
+```{r, eval = F}
+library(plotly)
+library(shiny)
+library(ggplot2)
+library(dplyr)
+# Format data
+t$SampleDateTime <- as.POSIXct(t$SampleDateTime)
+# Get time scale origin
+origin = t$SampleDateTime[1] - as.numeric (t$SampleDateTime[1])
+# Run app
+t <- flagData(t, "SampleDateTime", "Temperature", origin)
+```
+
+This should pop up:
+![](/home/stao/StreamTemp/screenshot1.png)
+Temperature values are plotted against the range of time. 
+
+From here you can click and drag to zoom in. If you want to zoom back out at any point, just double click anywhere on the plot.
+![](/home/stao/StreamTemp/screenshot3.png) 
+We've zoomed into the data from around November 2017 to May 2017. The constant readings of 0 degrees Celsius indicate the logger was frozen in ice over the winter. We want to flag all these data points. If you hover over the upper right area of window, you'll see a menu of symbols. The "Lasso Select" is the one you want to click on. After you select the lasso function it will allow you to click and drag the data points you want to flag. Do be warned that the lasso function is somewhat difficult to use; if you mess up flagging the data it's usually easier to just start over from generating the plot. 
+
+![](/home/stao/StreamTemp/screenshot4.png)
+The flagged data points will show up blue, and the legend on the upper right area of the window will also indicate this. After you're done flagging data, click on the "Finished" button on the bottom left area of the window. 
+
+## Finishing up
+Your data frame will now have two new columns, "FLAG" and "INDEX". You can remove the "INDEX" column and coerce the "FLAG" values to objects of type "numeric", but you will have to use logical negation `!`  because the flagged data will be Boolean "TRUE" and be converted to "1". We want the flagged data to be "FALSE" and converted to "0". 
+
+Finally, we rename the "FLAG" column to "UseData", separate "SampleDateTime" into "sampleDate" and "sampleTime" columns, add in a "AKOATS_ID" column, rearrange the columns to the consistent format, and write the newly formatted data frame as a csv file. You may need to merge multiple data frames if the contact submitted multiple files (usually each file is a one year period) for one site; in that case, I formatted and QAQC'ed each file separately and then merged the formatted data frames together into one csv file.   
+
+```{r, eval = F}
+# Change flagging if needed
+t$FLAG <- as.numeric(!t$FLAG)
+# remove index, rename columns
+t$INDEX <- NULL
+colnames(t) <- c('SampleDateTime', 'Temperature', 'UseData')
+
+# separate SampleDateTime into sampleDate and sampleTime
+t <- separate(t, SampleDateTime, into = c("sampleDate", "sampleTime"), sep = " ")
+
+# add in AKOATS column
+t$AKOATS_ID <- '1936'
+
+# rearrange columns
+t <- t[,c('sampleDate', 'sampleTime', 'Temperature', 'AKOATS_ID', 'UseData')]
+
+# write csv
+write.csv(t, '/home/stao/my-sasap/168_streamTemp_NPS_SW/raw2-formatted/1936.csv', row.names = F)
+```
