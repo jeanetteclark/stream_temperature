@@ -19,7 +19,7 @@ library(RColorBrewer)
 ```
 
 
-```{r, fig.width=8, fig.height=12}
+```{r, fig.width=15, fig.height=8}
 df <- read.csv("~/Desktop/AKOATS_poster/AKOATS_contact_results.csv", stringsAsFactors = F, blank.lines.skip = T)
 
 
@@ -29,7 +29,7 @@ df_agg <- df %>% group_by(Submission.Sort) %>%
     summarize(num = length(Contact_person))
 
 df_agg$Submission.Sort[df_agg$Submission.Sort == 1] <- "Data recieved"
-df_agg$Submission.Sort[df_agg$Submission.Sort == 2] <- "Responded, no follow up"
+df_agg$Submission.Sort[df_agg$Submission.Sort == 2] <- "No follow up"
 df_agg$Submission.Sort[df_agg$Submission.Sort == 3] <- "Wrong contact"
 df_agg$Submission.Sort[df_agg$Submission.Sort == 4] <- "No response"
 
@@ -39,11 +39,7 @@ p1 <- ggplot(df_agg, aes(x = Submission.Sort, y = num, fill = Submission.Sort)) 
     ylab("Number of responses") +
     #ggtitle("Results of e-mailed request for temperature data") +
     theme_bw() + 
-    theme(text = element_text(size = 24),
-          axis.title.x=element_blank(),
-          axis.text.x=element_blank(),
-          axis.ticks.x=element_blank(), 
-          legend.position = "none") +
+    theme(text = element_text(size = 28), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
     scale_fill_manual(values = c("dark green", "gold", "gray", "dark red"))
 
     
@@ -68,7 +64,7 @@ ak_agg <- ak %>% group_by(Submission.Sort) %>%
   summarize(num = length(Submission.Sort))
 
 ak_agg$Submission.Sort[ak_agg$Submission.Sort == 1] <- "Data recieved"
-ak_agg$Submission.Sort[ak_agg$Submission.Sort == 2] <- "Responded, no follow up"
+ak_agg$Submission.Sort[ak_agg$Submission.Sort == 2] <- "No follow up"
 ak_agg$Submission.Sort[ak_agg$Submission.Sort == 3] <- "Wrong contact"
 ak_agg$Submission.Sort[ak_agg$Submission.Sort == 4] <- "No response"
 
@@ -81,11 +77,11 @@ p2 <- ggplot(ak_agg, aes(x = Submission.Sort, y = num, fill = Submission.Sort)) 
     theme(text = element_text(size = 24), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
     scale_fill_manual(values = c("dark green", "gold", "gray", "dark red"))
 
-p <- plot_grid(p1, p2, align = "hv", ncol = 1)
+p <- plot_grid(p1, p2, align = "v", ncol = 2)
 
 print(p)
     
-ggsave("~/Documents/Projects Data/stream_temperature/WDAFS/responses.png", plot = p, device = "png", width = 8, height = 12, units = "in")
+ggsave("~/Documents/Projects Data/stream_temperature/WDAFS/responses.png", plot = p, device = "png", width = 14.6, height = 6.4, units = "in")
 
 ```
 
@@ -103,10 +99,10 @@ p <- ggplot(ag, aes(x = Agency, y = Monitoring.Sites, fill= Agency)) +
     ylab("Number of sites") +
     #ggtitle("Results of e-mailed request for temperature data") +
     theme_bw() + 
-    theme(text = element_text(size = 24), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
+    theme(text = element_text(size = 28), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
     scale_fill_manual(values = getPalette(colourCount))
 
 print(p)
-ggsave("~/Documents/Projects Data/stream_temperature/WDAFS/Agencies.png", plot = p, device = "png", width = 8, height = 5, units = "in")
+ggsave("~/Documents/Projects Data/stream_temperature/WDAFS/Agencies.png", plot = p, device = "png", width = 11.9, height = 7.4, units = "in")
   
 ```
