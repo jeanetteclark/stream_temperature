@@ -25,3 +25,5 @@ i <- grep("SiteLevel", names(data_pids))
 data_pids <- data_pids[-i]
 i <- grep("SpotTemp", names(data_pids))
 data_pids <- data_pids[-i]
+
+data_pids <- data.frame(FileName = names(data_pids), pid = unname(data_pids), stringsAsFactors = F)
