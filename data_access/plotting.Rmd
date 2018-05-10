@@ -1,0 +1,42 @@
+---
+title: "Simple_Plotting"
+author: "Jeanette Clark"
+date: "5/10/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(RCurl)
+library(knitr)
+```
+
+```{r}
+data_pids <- read.csv("data_access/data_pids.csv")
+```
+
+```{r, figure.width = 4, figure.height = 2, message = F, warning = F}
+for (i in 1:10){
+  download.file(paste0("https://knb.ecoinformatics.org/knb/d1/mn/v2/object/", 
+                          data_pids$pid[i]),
+                          "out.csv",
+                          method = "libcurl")
+  data <- read.csv("~/Documents/Projects Data/stream_temperature/data_access/out.csv", stringsAsFactors = F)
+  
+  if ("UseDate" %in% colnames(data)){
+    colnames(data)[colnames(data) == "UseDate"] <- "UseData"
+  }
+  data$SampleDateTime <- paste(data$sampleDate, data$sampleTime)
+  data$SampleDateTime <- strptime(as.character(data$SampleDateTime), format = "%Y-%m-%d %H:%M:%S")
+  p <- ggplot(data, aes(x = SampleDateTime, y = Temperature, color = UseData)) + 
+    geom_point() +
+    ggtitle(data_pids$FileName[i])
+  print(p)
+}
+
+```
+
