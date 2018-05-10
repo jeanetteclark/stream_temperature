@@ -6,36 +6,56 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = F, warning = F, message = F)
 ```
 
 ```{r}
 library(ggplot2)
 library(RCurl)
 library(knitr)
+library(lubridate)
+library(stringi)
+library(stringr)
 ```
 
 ```{r}
-data_pids <- read.csv("data_access/data_pids.csv")
+data_pids <- read.csv("~/stream_temperature/data_access/data_pids.csv")
 ```
 
 ```{r, figure.width = 4, figure.height = 2, message = F, warning = F}
-for (i in 1:10){
+for (i in 1:nrow(data_pids)){
   download.file(paste0("https://knb.ecoinformatics.org/knb/d1/mn/v2/object/", 
                           data_pids$pid[i]),
                           "out.csv",
                           method = "libcurl")
-  data <- read.csv("~/Documents/Projects Data/stream_temperature/data_access/out.csv", stringsAsFactors = F)
+  data <- read.csv("~/stream_temperature/data_access/out.csv", stringsAsFactors = F)
   
+  # At least one file has "UseDate" as a column name as opposed to "UseData"
   if ("UseDate" %in% colnames(data)){
     colnames(data)[colnames(data) == "UseDate"] <- "UseData"
   }
+  
+  # Skipping one file that has really botched time stamps
+  if (i == 151){
+    print(paste("skipping file", data_pids$FileName[151]))
+  }
+  
+  
+  else {
+  # Some files are not in HH:MM:SS so we have to coerce all of them into it by splitting and padding the time vector
+  times <- data.frame(stri_split_fixed(data$sampleTime, ":", simplify = T))
+  times$X1 <- str_pad(times$X1, width = 2, side = "left", pad = "0")
+  data$sampleTime <- paste0(times$X1,":",times$X2)
+  
   data$SampleDateTime <- paste(data$sampleDate, data$sampleTime)
-  data$SampleDateTime <- strptime(as.character(data$SampleDateTime), format = "%Y-%m-%d %H:%M:%S")
+  data$SampleDateTime <- strptime(as.character(data$SampleDateTime), format = "%Y-%m-%d %H:%M")
+  
   p <- ggplot(data, aes(x = SampleDateTime, y = Temperature, color = UseData)) + 
     geom_point() +
     ggtitle(data_pids$FileName[i])
+  
   print(p)
+  }
 }
 
 ```
