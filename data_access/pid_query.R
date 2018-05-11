@@ -9,7 +9,7 @@ library(dataone)
 cn <- CNode("PROD")
 mn <- getMNode(cn, paste('urn:node:',"KNB", sep = ""))
 
-ids <- c("urn:uuid:ab948ece-eede-4f7f-bc03-756b50b6e7b4",
+ids <- c("urn:uuid:58370e87-de7f-4c5d-997e-91d72c3fb067",
          "urn:uuid:148c64a3-c4ff-4b0f-b3bf-e3b3f14b088b",
          "urn:uuid:295dcc8a-cb5c-4677-8d58-01211212b9b4",
          "urn:uuid:cfee4086-62cf-482b-b1c6-b7194bfd095b")
@@ -25,3 +25,5 @@ i <- grep("SiteLevel", names(data_pids))
 data_pids <- data_pids[-i]
 i <- grep("SpotTemp", names(data_pids))
 data_pids <- data_pids[-i]
+
+data_pids <- data.frame(FileName = names(data_pids), pid = unname(data_pids), stringsAsFactors = F)
