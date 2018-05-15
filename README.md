@@ -8,7 +8,7 @@ The stream_temperature repo includes the following:
 data_access: scripts and files relevant to accessing and plotting stream temperature data
 processing_scripts: scripts used to process original stream temperature data
 QA: quality assutance and control scripts 
-WADFS: ??? response analysis
+WADFS: response analysis
 
 # Data Packages
 There following stream temperature packages are available on the KNB:
