@@ -74,7 +74,7 @@ p2 <- ggplot(ak_agg, aes(x = Submission.Sort, y = num, fill = Submission.Sort)) 
     ylab("Number of sites") +
     #ggtitle("Results of e-mailed request for temperature data") +
     theme_bw() + 
-    theme(text = element_text(size = 24), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
+    theme(text = element_text(size = 28), axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none") +
     scale_fill_manual(values = c("dark green", "gold", "gray", "dark red"))
 
 p <- plot_grid(p1, p2, align = "v", ncol = 2)
