@@ -17,7 +17,6 @@ Alaska Department of Fish and Game. 2018. In-situ stream temperature monitoring,
 
 Christopher Arp. 2018. In-situ stream temperature monitoring, North Slope, Alaska, 2011-2017. Knowledge Network for Biocomplexity. https://knb.ecoinformatics.org/#view/urn:uuid:e8e9f3f5-9b97-4359-be8f-d712d8c4f6fd
 
-
 United States Fish and Wildlife Service. 2018. In-situ stream temperature monitoring, Alaska. Knowledge Network for Biocomplexity. https://knb.ecoinformatics.org/#view/urn:uuid:148c64a3-c4ff-4b0f-b3bf-e3b3f14b088b
 
 National Park Service (NPS), Southwest Alaska Network (SWAN). 2018. In-situ stream temperature monitoring, southwest Alaska. Knowledge Network for Biocomplexity. https://knb.ecoinformatics.org/#view/urn:uuid:295dcc8a-cb5c-4677-8d58-01211212b9b4
