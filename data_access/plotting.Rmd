@@ -33,6 +33,7 @@ for (i in 1:nrow(data_pids)){
   # At least one file has "UseDate" as a column name as opposed to "UseData"
   if ("UseDate" %in% colnames(data)){
     colnames(data)[colnames(data) == "UseDate"] <- "UseData"
+    print(paste("file:", data_pids$FileName[i], "has UseDate column name"))
   }
   
   # Skipping one file that has really botched time stamps
@@ -49,10 +50,12 @@ for (i in 1:nrow(data_pids)){
   
   data$SampleDateTime <- paste(data$sampleDate, data$sampleTime)
   data$SampleDateTime <- strptime(as.character(data$SampleDateTime), format = "%Y-%m-%d %H:%M")
+  data$UseData <- as.character(data$UseData)
   
   p <- ggplot(data, aes(x = SampleDateTime, y = Temperature, color = UseData)) + 
     geom_point() +
-    ggtitle(data_pids$FileName[i])
+    ggtitle(data_pids$FileName[i]) +
+    scale_color_manual(values = c("blue", "red"))
   
   print(p)
   }
