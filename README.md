@@ -8,25 +8,26 @@ Stream temperature data have been collected by various entities, including the A
 # Data Packages
 Data processing is ongoing. The following stream temperature packages are currently publicly available on the KNB.
 
-* [Alaska Department of Fish and Game. 2018. In-situ stream temperature monitoring, Kodiak Island, Alaska. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:58370e87-de7f-4c5d-997e-91d72c3fb067)
-    + Contact: 
+* [Alaska Department of Fish and Game. 2018. In-situ stream temperature monitoring, Kodiak Island, Alaska. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:66c0bbbb-3cad-4c25-9979-4af62184da07)
+    + Contact: Heather Finkle, Alaska Department of Fish and Game
+    + Contact: Trenten Dodson, Kodiak Regional Aquaculture Association
 
 * [Christopher Arp. 2018. In-situ stream temperature monitoring, North Slope, Alaska, 2011-2017. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:e8e9f3f5-9b97-4359-be8f-d712d8c4f6fd)
-    + Contact:
+    + Contact: Christopher Arp, University of Alaska Fairbanks
 
-* [United States Fish and Wildlife Service. 2018. In-situ stream temperature monitoring, Alaska. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:148c64a3-c4ff-4b0f-b3bf-e3b3f14b088b)
-    + Contact: 
+* [United States Fish and Wildlife Service. 2018. In-situ stream temperature monitoring, Alaska. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:9864faef-64a9-4686-937b-555d018e1410)
+    + Contact: Margaret Perdue, United States Fish and Wildlife Service
 
 * [National Park Service (NPS), Southwest Alaska Network (SWAN). 2018. In-situ stream temperature monitoring, southwest Alaska. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:295dcc8a-cb5c-4677-8d58-01211212b9b4)
-    + Contact: 
+    + Contact: Paul Gabriel, National Park Service
 
 * [National Park Service, Central Alaska Network. 2017. In-situ stream temperature monitoring, central Alaska, 2008-2017. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:cfee4086-62cf-482b-b1c6-b7194bfd095b)
-    + Contact: 
+    + Contact: Trey Simmons, National Park Service
 
 ## Aboout this Repository
 The stream_temperature repo includes the following:
 
 * data_access: scripts and files relevant to accessing and plotting stream temperature data
 * processing_scripts: scripts used to process original stream temperature data
-* QA: quality assutance and control scripts 
+* QA: quality assurance and control scripts 
 * WDAFS: response analysis and figures for WDAFS poster
