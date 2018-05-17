@@ -21,7 +21,7 @@ Data processing is ongoing. The following stream temperature packages are curren
 * [National Park Service (NPS), Southwest Alaska Network (SWAN). 2018. In-situ stream temperature monitoring, southwest Alaska. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:295dcc8a-cb5c-4677-8d58-01211212b9b4)
     + Contact: Paul Gabriel, National Park Service
 
-* [National Park Service, Central Alaska Network. 2017. In-situ stream temperature monitoring, central Alaska, 2008-2017. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:cfee4086-62cf-482b-b1c6-b7194bfd095b)
+* [National Park Service, Central Alaska Network. 2017. In-situ stream temperature monitoring, central Alaska, 2008-2017. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/#view/urn:uuid:63477beb-4135-4fbd-b847-86d5f9f00992)
     + Contact: Trey Simmons, National Park Service
 
 ## Aboout this Repository
