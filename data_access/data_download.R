@@ -18,15 +18,15 @@ cn <- CNode('PROD')
 mn <- getMNode(cn, 'urn:node:KNB')
 
 ## Packages containing stream temperature data
-ids <- c("urn:uuid:66c0bbbb-3cad-4c25-9979-4af62184da07",           
+ids <- c("urn:uuid:6a67fcbc-6a2e-4282-b739-486ec9bb02d0",           
          "urn:uuid:e8e9f3f5-9b97-4359-be8f-d712d8c4f6fd",
          "urn:uuid:9864faef-64a9-4686-937b-555d018e1410",
          "urn:uuid:295dcc8a-cb5c-4677-8d58-01211212b9b4",
-         "urn:uuid:63477beb-4135-4fbd-b847-86d5f9f00992")
+         "urn:uuid:63477beb-4135-4fbd-b847-86d5f9f00992") #need to update this pid
 
 ## Get data pids
 all_data_pids <- c()
-for (i in 1:4){
+for (i in 1:length(ids)){
   id_temp <- get_package(mn, ids[i], file_names = T)
   all_data_pids[[i]] <- id_temp$data
 }
@@ -36,7 +36,6 @@ all_data_pids <- unlist(all_data_pids)
 i <- grep("SiteLevel", names(all_data_pids))
 data_pids <- all_data_pids[-i]
 
-##########Need to check if this file got removed or something
 i <- grep("SpotTemp", names(data_pids))
 data_pids <- data_pids[-i]
 
@@ -51,7 +50,7 @@ a <- c()
 # Set working directory where you want to save the files
 directory <- "/home/treeder/scratch" #Insert working directory path here
 
-# Read and write files to the selected directory
+# Read and write files to the selected directory.
 for(i in 1:length(data_pids)){
   file.names[i] <- (paste0("https://knb.ecoinformatics.org/knb/d1/mn/v2/object/", data_pids[i]))
   a[[i]]<- read.csv(file.names[i], stringsAsFactors = F)
@@ -81,8 +80,9 @@ for(i in 1:length(md_pids)){
   md[[i]]<- read.csv(file.names[i], stringsAsFactors = F)
 }
 
-l <- length(md)
-md_df <- rbind(md[[1]], md[[2]], md[[3]], md[[4]])
+md_df <- rbind(md[[1]], md[[2]], md[[3]], md[[4]], md[[5]])
+
+# Final dataframe 
 md_df <- md_df[, c(1,13)]
 
 # View the dataframe to see AKOATS IDs of interest
@@ -92,7 +92,7 @@ View(md_df)
 directory <- "/home/treeder/scratch" #Insert working directory path here
 
 # Run the function to initiate
-# The run in the console using selectAKOATS()
+# Then run in the console using selectAKOATS(), function will prompt user for inputs. Repeat for each desired AKOATS ID. 
 selectAKOATS <- function(){
   b <- c()
   x <- readline("Which AKOATS_ID do you want to download? Input one ID:")  
@@ -105,8 +105,6 @@ selectAKOATS <- function(){
     write.csv(b[[i]], paste(directory, out.names[i], sep='/'), row.names = F)
   }
 }
-
-#need to figure out how to add checks for it it isnt an ID
 
 #####################################
 # To download by water body name
