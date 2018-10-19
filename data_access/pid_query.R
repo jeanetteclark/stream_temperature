@@ -9,10 +9,11 @@ library(dataone)
 cn <- CNode("PROD")
 mn <- getMNode(cn, paste('urn:node:',"KNB", sep = ""))
 
-ids <- c("urn:uuid:58370e87-de7f-4c5d-997e-91d72c3fb067",
-         "urn:uuid:148c64a3-c4ff-4b0f-b3bf-e3b3f14b088b",
+ids <- c("urn:uuid:66c0bbbb-3cad-4c25-9979-4af62184da07",           
+         "urn:uuid:e8e9f3f5-9b97-4359-be8f-d712d8c4f6fd",
+         "urn:uuid:9864faef-64a9-4686-937b-555d018e1410",
          "urn:uuid:295dcc8a-cb5c-4677-8d58-01211212b9b4",
-         "urn:uuid:cfee4086-62cf-482b-b1c6-b7194bfd095b")
+         "urn:uuid:63477beb-4135-4fbd-b847-86d5f9f00992")
 
 data_pids <- c()
 for (i in 1:4){
