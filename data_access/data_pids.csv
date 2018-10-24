@@ -1,175 +1,249 @@
-"FileName","pid"
-"DogSalmonCreek_1942_2016_2017.csv","urn:uuid:cbf02b0c-0d58-4188-a20b-cc1353e6fa97"
-"DogSalmonCreek_972_2016_2017.csv","urn:uuid:a1a8820b-4fda-4707-9b92-bb688650757b"
-"AyakulikRiver_973_2016_2017.csv","urn:uuid:8cad5075-3876-471c-81b3-6814c6ebba68"
-"AkaluraLake_942_2016_2017.csv","urn:uuid:d34db64f-3803-447e-9748-de17ec797207"
-"UganikLake_953_2017.csv","urn:uuid:9b05c29d-5ca4-4e55-898b-3ba6872d5f41"
-"AfognakLake_959_2017.csv","urn:uuid:928ea107-580f-4c82-bc96-1bc6118a51fd"
-"SpiridonLake_956_2017.csv","urn:uuid:352d39f8-6ccf-4452-b8b4-be6755cbaa6c"
-"KarlukRiver_974_2016_2017.csv","urn:uuid:26e6f33e-cb3c-4817-866b-0d31fd6bfe38"
-"StreamAboveJoshuaGreenRiver_1868_2014_2017.csv","urn:uuid:4eaaae56-bd42-4be1-8853-c0a7285db22e"
-"JoshuaGreenRiver_1869_2014_2017.csv","urn:uuid:8e6cb18f-1b04-4475-934a-e34e21a899c6"
-"StreamAboveMorzhovoiBay_1856_2014_2017.csv","urn:uuid:310e692a-f16a-4ff9-9c32-9ead65971fec"
-"WillowLake_1873_2016_2017.csv","urn:uuid:442d9536-c42b-4130-8ebc-2f6e7efd7941"
-"AlligatorHoleCenter_1864_2014_2017.csv","urn:uuid:da0e34a7-580b-4a3c-894d-42cad20c76d5"
-"StreamAboveJoshuaGreenRiver_1866_2014_2017.csv","urn:uuid:fcf38997-89e3-4d0a-a516-d3a6d3af1310"
-"PaulHansenLake_1871_2014_2017.csv","urn:uuid:c8915cf5-a12e-4acd-8893-34f8c618990f"
-"StreamAboveLittleJohnLagoon_1851_2014_2017.csv","urn:uuid:66a2ce1b-64ba-4097-9048-aae775425315"
-"BillyHawkCreekEast_1875_2016_2017.csv","urn:uuid:1f33aebb-7293-417f-b788-3791b7cef3ef"
-"BillyHawkCreekWest_1876_2016_2017.csv","urn:uuid:e184d002-485e-43e4-8119-c535d844f28f"
-"RedLakeRiver_1624_2015_2017.csv","urn:uuid:568dbd25-dd7b-49bc-89f9-b2a10972a3d0"
-"FallCreek_1930_2015_2017.csv","urn:uuid:260b7b31-2e57-4e75-b1e8-826ec69dc3d0"
-"StreamAboveMoffetLagoon_1859_2014_2017.csv","urn:uuid:c8f997a2-a2aa-4c29-9bb0-3b14fe7e5734"
-"RedSalmonCreek_1865_2014_2017.csv","urn:uuid:32adc361-9933-4c1c-a6ba-fcec236eaa15"
-"MikesDuckCamp_1863_2014_2017.csv","urn:uuid:f5438ab5-8626-4593-a5a5-9744af13f47a"
-"AkaluraLake_1617_2011_2017.csv","urn:uuid:7f2e1169-a0a5-44be-9f81-ddccec3c5f90"
-"AkaluraRiver_1618_2015_2017.csv","urn:uuid:81f949e1-0218-4ba8-8a1b-b14ec4ab69ce"
-"PinnellCreek_1623_2015_2017.csv","urn:uuid:d5dbea6e-e5a7-4da2-a4b1-8fad6e5605cb"
-"CanyonCreek_1620_2015_2017.csv","urn:uuid:e92c157e-b070-4c96-a33f-f361f4cf2c7a"
-"RedLake_663_2015_2017.csv","urn:uuid:82c7f58c-1166-4588-b2f6-1a5a1f8274bf"
-"SoutheastCreek_1932_2015_2017.csv","urn:uuid:8b7b969b-5905-4b5a-bcd1-d691b478cced"
-"StreamAboveJoshuaGreenRiver_1867_2014_2017.csv","urn:uuid:08e7afc8-2ffc-4bc9-a74e-5d7db7c7997a"
-"StreamAboveKinzarofLagoon_1849_2016_2017.csv","urn:uuid:eb5b9cc5-cab9-4268-bf8c-84e95c07a063"
-"StreamAboveJoshuaGreenRiver_1852_2014_2017.csv","urn:uuid:852b95a5-da12-444c-ae29-7ea560d5b20c"
-"CanneryCreek_1857_2014_2017.csv","urn:uuid:f64d94db-9ccd-48bf-92e9-2f24603a3fe5"
-"StreamAboveJoshuaGreenRiver_1854_2014_2017.csv","urn:uuid:c30b4888-37d4-4a5b-9fa2-93f89733e398"
-"StreamAboveKinzarofLagoon_1878_2016_2017.csv","urn:uuid:439f4999-d366-404f-a5b7-778c9cc8f522"
-"StreamAboveLittleJohnLagoon_1850_2014_2017.csv","urn:uuid:fbdf73c9-8196-4b0e-b14e-de9bb8351ab3"
-"OMalleyRiver_1880_2015_2017.csv","urn:uuid:d859863a-699b-42b7-9dd7-aaa40a3932c3"
-"CascadeCreek_1928_2015_2017.csv","urn:uuid:51092514-1348-4929-9725-a95cb9cb38a3"
-"StreamAboveMoffetLagoon_1860_2014_2017.csv","urn:uuid:2a7ea34b-fd1b-41d9-b2ae-079a84bdc1d7"
-"StreamAboveKinzarofLagoon_1877_2014_2017.csv","urn:uuid:87fbaa7d-9a7d-4cd7-862a-e388a815d39c"
-"PaulHansenLake_1870_2014_2017.csv","urn:uuid:112c03df-ca50-45b7-851a-db74a4fe0b6d"
-"DakliWheelerCreek_1874_2016_2017.csv","urn:uuid:51d75948-fabd-4682-bade-9ce9809a3b7c"
-"StreamAboveMoffetLagoon_1861_2014_2017.csv","urn:uuid:33605ac8-18fd-4bfa-9acb-88d68acb2d77"
-"StreamAboveNormaBay_1862_2014_2017.csv","urn:uuid:6cdd4d51-904d-45d9-831b-33794f1ff838"
-"LakeNearMorzhovoiBay_1855_2014_2017.csv","urn:uuid:818a1681-d3a2-4f3e-ad89-86c29616719b"
-"StreamAboveMoffetLagoon_1858_2014_2017.csv","urn:uuid:8a947035-efb1-47fb-885f-e8743d58395f"
-"MeadowCreek_1879_2015_2016.csv","urn:uuid:8de22c69-93a4-4758-8726-7afc35ab6dde"
-"LakeNearKinzarofLagoon_1848_2016_2017.csv","urn:uuid:ffdfbb12-915c-4b7b-b0a9-bae215413554"
-"WillowLake_1872_2016_2017.csv","urn:uuid:6d5bbf10-72b7-4396-a503-eedaec2191fe"
-"AyakulikRiver_1619_2015_2017.csv","urn:uuid:c2e2e053-152e-4f20-a9b6-7aa15a51fa47"
-"ConnecticutCreek_1621_2015_2017.csv","urn:uuid:431124d8-a22b-4243-b522-42207df33a07"
-"KarlukLake_664_2015_2017.csv","urn:uuid:1792f020-35d2-4fd6-8807-745cc8ba0ec8"
-"HorseMarineLake_1622_2015_2017.csv","urn:uuid:70d3769d-d889-4991-a8b0-7844858cce3d"
-"EastForkThumbRiver_1929_2015_2017.csv","urn:uuid:4116f9b0-9907-40af-9191-91162518626f"
-"SouthForkKoyukukRiver_1159_2011_2015.csv","urn:uuid:2c238212-a12b-494d-a6cb-03a540e0b1e4"
-"HolonadaCreek_1834_2010_2015.csv","urn:uuid:f5dca4c3-ec39-42c2-a7f6-343c9ba6e49f"
-"KanutiRivertributary_1157_2010_2015.csv","urn:uuid:e2db7d01-4bbc-4df9-91f7-8c57c4cfe25e"
-"AyakulikRiver_1151_2005_2007.csv","urn:uuid:7b778b1a-0017-4e43-9890-c499d83c6bd9"
-"KarlukRiver_1152_2004_2007.csv","urn:uuid:3c0a5ea8-039a-4fd3-acf3-06622cd1fc68"
-"GardinerCreek_1155_2006_2012.csv","urn:uuid:17fc1f08-c897-46db-a3de-51e9324e98e8"
-"EgegikRiver_1833_2015_2016.csv","urn:uuid:287f63cd-0a53-41b5-bc0e-e5256d93f05f"
-"KoyukukRiver_1835_2015_2016.csv","urn:uuid:9bcbbfed-f118-4c2b-9143-3a6a73415af3"
-"ScottieCreek_1153_2006_2013.csv","urn:uuid:cae0e1ac-fba0-4e90-bdeb-df2c24e229e2"
-"KanutiRiver_1158_2010_2014.csv","urn:uuid:5b0e4369-bc49-4e4a-a179-21c14d97dfb5"
-"AkaluraRiver_1149_2004_2007.csv","urn:uuid:7e4999b9-38a2-46a7-ac5b-69754b800f0c"
-"DogSalmonRiver_1150_2004_2007.csv","urn:uuid:697e832c-55e3-445a-aec7-08f42effd05b"
-"DesperCreek_1154_2006_2012.csv","urn:uuid:41bffd73-cb48-430c-be5e-e02b675c0dee"
-"KanutiKilolitnaRiver_1156_2010_2011.csv","urn:uuid:f194bb3c-4812-42f6-b263-841cfc936bfe"
-"TlikakilaRiver_1941_2014_2017.csv","urn:uuid:ba8e5f0a-f870-4a69-a342-c9358cf28f1f"
-"TaziminaRiver_1940_2014_2017.csv","urn:uuid:de1d274a-01cf-4c1f-9f9f-1b0e068e109c"
-"LittleKijikRiver_1939_2014_2017.csv","urn:uuid:1e8f0646-2e64-41c6-8110-b950287c263e"
-"NaknekLakeOutletRiver_1631_2012_2015.csv","urn:uuid:9a4d7f1e-a812-4763-8239-00c6b3665db6"
-"LakeClark_1933_2014_2017.csv","urn:uuid:e271b1ed-94f7-42a7-9c52-45936fa50e81"
-"LakeClarkOutlet_1633_2009_2015.csv","urn:uuid:6d03d67f-8e6c-41ba-b970-656b3886302c"
-"KijikLake_1934_2014_2017.csv","urn:uuid:66c526b3-0e0c-41c9-93f5-1a084555c026"
-"LakeClark_1935_2014_2016.csv","urn:uuid:733a35b1-8bf2-44a3-941d-b9a1b781c18d"
-"KijikLake_1523_2010_2015.csv","urn:uuid:edb6eb42-b2fb-40cc-9373-08230e5e2878"
-"NaknekLake_1431_2011_2015.csv","urn:uuid:e6b3bdee-7032-4459-9b75-893e7c6ac1b9"
-"NaknekLake_1450_2008_2015.csv","urn:uuid:69023028-8f86-4a05-a8c9-fde6b0fabb94"
-"UpATreeCreek_1938_2014_2017.csv","urn:uuid:600bdd6f-373f-4fc1-80c9-f08616868d12"
-"LakeBrooks_1435_2010_2015.csv","urn:uuid:332c2228-5854-45c4-ade2-8ed1e69ca9dd"
-"LakeClark_1514_2006_2015.csv","urn:uuid:abdb7510-b62c-43b6-89b6-3a8d101bc386"
-"MargotCreek_1937_2014_2017.csv","urn:uuid:a49569d3-432f-41d5-ace8-b0ba478856dd"
-"NaknekLake_1458_2008_2015.csv","urn:uuid:108f3921-c5bf-4f2d-aa98-4e4c5289f4f4"
-"IdavainCreek_1936_2016_2017.csv","urn:uuid:ded8b290-32e8-4a3f-aeb3-d425b04292de"
-"LakeCreekDENA_1603_2015_2017.csv","urn:uuid:aeab6b1a-78e0-4e34-a23c-04217af47553"
-"RockCreekDENA_1611_2011_2013.csv","urn:uuid:b66b9f16-a7af-48ef-b7de-80e785a49cd5"
-"HoganCreek_1610_2009.csv","urn:uuid:9aec3a0b-5f9c-4e17-ba83-420be4cc4b68"
-"JackCreek_1594_2008.csv","urn:uuid:5b1deb94-5c2e-4f2a-98cf-d1f3d8c18784"
-"RufusCreek_1600_2015_2017.csv","urn:uuid:88b3ad4d-c7ca-4e0c-9644-b139cbba9e56"
-"CaribouCreek_1599_2010_2011.csv","urn:uuid:bb1ac0cf-19eb-4fff-85cc-822e79b3feba"
-"SanctuaryRiver_1609_2009.csv","urn:uuid:b43ab811-e9d4-4cc1-9b8c-c0dfd9cee342"
-"IglooCreek_1608_2009.csv","urn:uuid:fcd171f2-cf5a-42af-a8fd-063648c31402"
-"GorgeCreekSpring_1601_2011_2013.csv","urn:uuid:2579b721-994e-4d52-a021-079000114f60"
-"PacoCreek_1596_2015_2017.csv","urn:uuid:9838aa57-5776-4013-9010-2d9f6f71a5e0"
-"TattlerCreek_DUP_1607_2016_2017.csv","urn:uuid:e0eec366-b0bd-4c3d-98ef-8d872d18d8dc"
-"LongLakeCreek_1591_2012_2015.csv","urn:uuid:3e7c6825-59b3-417c-926f-b481d110dea9"
-"EFToklatTrib_1606_2013_2015.csv","urn:uuid:5ee02575-75bc-4e05-af4b-320d4a20d543"
-"LittleJackCreek_1597_2008.csv","urn:uuid:7cc79761-83cc-47cc-b5f3-d6efec984ecb"
-"LittleJackCreek_1597_2010_2012.csv","urn:uuid:e2b26093-df54-43ad-aac3-11cb1b8cbf3a"
-"MooseCreek_1605_2013_2015.csv","urn:uuid:227bc5a8-0698-43e4-8a70-4b74931abf39"
-"GilahinaRiver_1592_2010_2012.csv","urn:uuid:15bac7a1-7f29-4675-993a-ce1dd5714366"
-"LongLakeCreek_1591_2008.csv","urn:uuid:12dc26f1-2dc1-454c-8dd6-2324f7c44447"
-"LittleStonyCreek_1602_2014_2015.csv","urn:uuid:26ce6af0-d815-46f2-b29a-9b0d7c8481e8"
-"LakeCreekDENA_1603_2011_2013.csv","urn:uuid:73eb494d-119c-4ac3-949a-1b58078d19eb"
-"RufusCreek_1600_2009.csv","urn:uuid:01adafd5-4f95-4a52-a7b2-8dd6e732074d"
-"LakeCreekDENA_DUP_1603_2016_2017.csv","urn:uuid:434f7a09-b0f0-4675-820a-cf6e7a6e2f17"
-"SavageRiver_DUP_1612_2016_2017.csv","urn:uuid:6bf1a314-4e32-435c-bf67-21872c47ee92"
-"WonderLakeInflow_1613_2015_2017.csv","urn:uuid:a32859a7-08da-4364-8af3-2b01d0e3611b"
-"HoganCreek_1610_2008.csv","urn:uuid:9b1ff6ed-65ea-4298-80fb-d737ca5102cc"
-"SanctuaryRiver_1609_2015_2017.csv","urn:uuid:33d6c8c7-3c77-438a-aed4-c21693a773d3"
-"WonderLakeInflow_1613_2012_2015.csv","urn:uuid:d5ddad79-733f-452b-87c3-6f6f42907b0f"
-"GorgeCreekSpring_1601_2013_2015.csv","urn:uuid:9b73822b-c66d-4d21-837e-be7a09b483c0"
-"LittleJackCreek_1597_2015_2017.csv","urn:uuid:a0dfde01-b3dd-495e-9af1-03b63c3f4674"
-"JackCreek_1594_2014_2015.csv","urn:uuid:c6da5367-3c89-4c7b-b53e-b8b5544e134f"
-"JackCreek_1594_2011_2014.csv","urn:uuid:eaa16138-bf28-49cc-bfc6-b5b474a4c9d6"
-"IglooCreek_DUP_1608_2016_2017.csv","urn:uuid:e05b86e7-6639-4ca0-9278-98fd2fc5102a"
-"MooseCreek_1605_2009.csv","urn:uuid:437cc4af-3543-49c0-bb35-7fede2df6589"
-"GorgeCreekSpring_1601_2015_2017.csv","urn:uuid:16358e65-571b-4bb4-9e4e-010047e957f2"
-"PacoCreek_1596_2011_2014.csv","urn:uuid:5ce61b66-48a5-4c21-a011-a90006458aab"
-"EFToklatTrib_1606_2015_2017.csv","urn:uuid:460f3440-261d-441b-ac4c-997b19196b90"
-"EFToklatTrib_1606_2009.csv","urn:uuid:dcc17ba1-f68b-4c28-a9b2-5687ada797e8"
-"RufusCreek_1600_2010_2013.csv","urn:uuid:42f8a5c3-ff8a-4c66-8395-47a26ad7fa74"
-"RockCreekWRST_1598_2010_2012.csv","urn:uuid:0b60a06f-543a-4a89-9977-cd50d8413ecf"
-"CaribouCreek_1599_2008.csv","urn:uuid:9c2789f1-6201-42d8-b1db-cb09bc46b5c1"
-"SanctuaryRiver_1609_2011_2013.csv","urn:uuid:41f37f31-c7f2-4f9a-b1b5-69803b31f8b8"
-"IglooCreek_1608_2008.csv","urn:uuid:6d321e83-b04a-4e77-8bdf-fcfcf99f8752"
-"CrystalCreek_1589_2012_2015.csv","urn:uuid:d81c8f03-f7d0-4628-a360-176a3befa16d"
-"HoganCreek_1610_2015_2017.csv","urn:uuid:de1ebd6e-2797-4e94-96d1-2453b5c02fcb"
-"SanctuaryRiver_1609_2008.csv","urn:uuid:6a892c75-fb46-49ac-b1e6-537b90227250"
-"ChalkCreek_1595_2009.csv","urn:uuid:68d48283-6c78-4718-b178-0434ef127e5c"
-"LakeCreekDENA_1603_2008.csv","urn:uuid:b3f647c5-e743-47ef-8d72-d47fdb3e55d9"
-"CaribouCreek_1599_2009.csv","urn:uuid:59e5d4fb-6c8f-4e59-be25-9a269802f011"
-"SanctuaryRiver_DUP_1609_2016_2017.csv","urn:uuid:69e3769d-aa94-472c-882e-6723a139b64d"
-"ChalkCreek_1595_2015_2017.csv","urn:uuid:04bf85bb-c8c5-4912-b8da-42e8240e1fbe"
-"SavageRiver_1612_2008.csv","urn:uuid:2136a8dc-a286-4cdc-b07d-454e74da156f"
-"GilahinaRiver_1592_2008.csv","urn:uuid:b9718326-b83f-45f4-9b9f-df133c302d03"
-"EFToklatTrib_DUP_1606_2016_2017.csv","urn:uuid:73d80d20-eb36-490a-8103-c09fecaba098"
-"ChalkCreek_1595_2010_2012.csv","urn:uuid:5d47dec5-4888-4b0c-a1fa-a61343081f25"
-"EFToklatTrib_1606_2011_2013.csv","urn:uuid:b28e1e29-d24e-4fa4-8583-4901145d60cc"
-"RufusCreek_1600_2013_2015.csv","urn:uuid:e8c654eb-4f29-4d85-af20-52f2a3ed2388"
-"LakeCreekDENA_1603_2013_2014.csv","urn:uuid:e9c865d6-c2a3-4957-94c3-8d705c17e9bb"
-"RockCreekDENA_1611_2009_2010.csv","urn:uuid:40d90687-3a1a-4b45-b731-5843c16fc071"
-"RockCreekWRST_1598_2008.csv","urn:uuid:aec31dae-142f-4636-8451-e3816c71aee9"
-"RockCreekWRST_1598_2009.csv","urn:uuid:380561f1-e93c-486d-a476-5373315211a9"
-"ChalkCreek_1595_2012_2014.csv","urn:uuid:e5dabefa-d152-4cbd-af8a-975ea793dbeb"
-"HoganCreek_1610_2014_2015.csv","urn:uuid:0648542b-dda5-4e44-b486-2285b652435a"
-"ChalkCreek_1595_2014_2015.csv","urn:uuid:ff284837-7620-4b28-8f8a-a1472539414d"
-"LongLakeCreek_1591_2010_2012.csv","urn:uuid:c3e0ae75-e8f7-43ba-91dc-a35c72cfee69"
-"MooseCreek_DUP_1605_2016_2017.csv","urn:uuid:8aaa0d25-f39a-44dc-9603-69d69003a92f"
-"WonderLakeInflow_DUP_1613_2016_2017.csv","urn:uuid:4ccece62-5079-4c75-a44f-872df37a247c"
-"TattlerCreek_1607_2010_2011.csv","urn:uuid:fc3f14a0-38a6-41e1-8b84-050c40f67381"
-"LittleStonyCreek_1602_2009.csv","urn:uuid:acf95b33-b4d8-4694-98f5-a279cfd4c782"
-"TattlerCreek_1607_2009.csv","urn:uuid:2dd3abd8-6675-418b-bf74-b8c576a4b3cd"
-"SanctuaryRiver_1609_2013_2015.csv","urn:uuid:15b47a46-886b-4c77-8ddf-c42acfce859c"
-"SavageRiver_1612_2015_2017.csv","urn:uuid:d184d966-0c44-4240-99ec-471671f445a5"
-"GilahinaRiver_1592_2012_2015.csv","urn:uuid:b863b7f7-92b6-4cfa-a741-48757caaf318"
-"TattlerCreek_1607_2012_2015.csv","urn:uuid:90bd3177-4929-4cd6-8946-b9a46071eafb"
-"TattlerCreek_1607_2015_2017.csv","urn:uuid:53c3d720-6ffa-4e85-a690-879b11a4e059"
-"IglooCreek_1608_2011_2013.csv","urn:uuid:93ca8daf-069a-4d98-b75e-88932b0e881e"
-"HoganCreek_DUP_1610_2016_2017.csv","urn:uuid:ec7fc72e-489e-4acd-9d21-609fa98b8518"
-"JackCreek_1594_2015_2017.csv","urn:uuid:8afdc986-5ec8-415f-9c8a-66ffd669d102"
-"HoganCreek_1610_2011_2014.csv","urn:uuid:391a8e3d-a0e0-4419-8f84-a300a3fbe85e"
-"MooseCreek_1605_2008.csv","urn:uuid:63b3eff8-e950-4641-a1ea-b3744367b7e3"
-"CrystalCreek_1589_2010_2012.csv","urn:uuid:77cd4f61-61fe-4daa-a060-f54666eaae44"
-"ChalkCreek_1595_2008.csv","urn:uuid:4bed21d1-866c-4d19-becc-52270fc35d6d"
-"SavageRiver_1612_2014_2015.csv","urn:uuid:2e379d1e-79ef-4854-9501-e282ddcfec58"
-"LakeCreekDENA_1603_2009_2011.csv","urn:uuid:85f2c8bc-4a02-443e-8dde-ee3a29300f9b"
-"MooseCreek_1605_2015_2017.csv","urn:uuid:ca6fc252-449f-467b-8ecc-b2c7f226d0e2"
-"IglooCreek_1608_2015_2017.csv","urn:uuid:82b098a7-d746-43c1-8078-f62fb0b17a57"
-"JackCreek_1594_2009.csv","urn:uuid:48c9058a-c180-42b9-8bf1-fd4a0641c061"
-"LakinaRiver_1590_2008.csv","urn:uuid:8b7d4636-2c6d-4774-b677-8abe6140f159"
-"LittleJackCreek_1597_2012_2015.csv","urn:uuid:f1a19f2a-bf97-4869-8763-860a2bc2891e"
-"IglooCreek_1608_2013_2015.csv","urn:uuid:129117e1-9715-4005-a6db-fe229005877b"
+"FileName","Waterbody","AKOATS_ID","Start_Year","End_Year","pid","URL","Contact_person","Contact_email","Latitude","Longitude"
+"TributaryKoksetnaRiver_1661_2015_2017.csv","TributaryKoksetnaRiver",1661,"2015","2017","urn:uuid:e22f59a7-d9de-4101-bd63-f1d01b22d129","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e22f59a7-d9de-4101-bd63-f1d01b22d129","Dan Bogan","dlbogan@uaa.alaska.edu",60.26358,-155.14171
+"KoktuliRiver_760_2013_2017.csv","KoktuliRiver",760,"2013","2017","urn:uuid:6f11bfaf-95c5-42c9-98c8-bd2d581f1fb1","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6f11bfaf-95c5-42c9-98c8-bd2d581f1fb1","Dan Bogan","dlbogan@uaa.alaska.edu",59.79815,-155.51123
+"TributaryKoktuliRiver_763_2013_2017.csv","TributaryKoktuliRiver",763,"2013","2017","urn:uuid:f6d7822c-734e-4cc6-83cc-40fb9ae47622","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f6d7822c-734e-4cc6-83cc-40fb9ae47622","Dan Bogan","dlbogan@uaa.alaska.edu",59.82543,-155.3571
+"ChilchitnaRiver_1663_2015_2017.csv","ChilchitnaRiver",1663,"2015","2017","urn:uuid:93762bf2-fe36-41a1-b752-0faed580c5b0","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:93762bf2-fe36-41a1-b752-0faed580c5b0","Dan Bogan","dlbogan@uaa.alaska.edu",60.44236,-155.20805
+"KaskanakCreek_1662_2015_2017.csv","KaskanakCreek",1662,"2015","2017","urn:uuid:dddad262-7190-429f-b8c7-1b304d4c03cf","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:dddad262-7190-429f-b8c7-1b304d4c03cf","Dan Bogan","dlbogan@uaa.alaska.edu",59.69252,-155.74731
+"TributaryNewhalenRiver_764_2013_2017.csv","TributaryNewhalenRiver",764,"2013","2017","urn:uuid:b19ac4bb-9462-424e-adbe-ed44ea0460be","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b19ac4bb-9462-424e-adbe-ed44ea0460be","Dan Bogan","dlbogan@uaa.alaska.edu",59.90227,-154.89095
+"LittleMulchatnaRiver_1660_2015_2017.csv","LittleMulchatnaRiver",1660,"2015","2017","urn:uuid:57747376-c832-40a9-8457-e28bfe23dba9","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:57747376-c832-40a9-8457-e28bfe23dba9","Dan Bogan","dlbogan@uaa.alaska.edu",60.49564,-154.38715
+"TributaryKoktuliRiver_761_2013_2017.csv","TributaryKoktuliRiver",761,"2013","2017","urn:uuid:5bb411af-8677-4ff0-bbe8-819becdd9b5c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5bb411af-8677-4ff0-bbe8-819becdd9b5c","Dan Bogan","dlbogan@uaa.alaska.edu",59.81045,-155.61197
+"TributaryKoktuliRiver_762_2013_2017.csv","TributaryKoktuliRiver",762,"2013","2017","urn:uuid:e5015b84-0ace-4085-94b3-16ddcf48eb73","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e5015b84-0ace-4085-94b3-16ddcf48eb73","Dan Bogan","dlbogan@uaa.alaska.edu",59.817,-155.76492
+"SouthForkKoktuliRiver_1665_2015_2017.csv","SouthForkKoktuliRiver",1665,"2015","2017","urn:uuid:49ca2bd3-7b93-4d8f-b8c3-d68cdb6f8c72","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:49ca2bd3-7b93-4d8f-b8c3-d68cdb6f8c72","Dan Bogan","dlbogan@uaa.alaska.edu",59.82923,-155.77438
+"TaziminaRiver_1667_2015_2017.csv","TaziminaRiver",1667,"2015","2017","urn:uuid:4d50bb7d-c4c1-486e-83f3-6734a190f9e3","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:4d50bb7d-c4c1-486e-83f3-6734a190f9e3","Dan Bogan","dlbogan@uaa.alaska.edu",59.93596,-154.81134
+"StuyahokRiver_1666_2015_2017.csv","StuyahokRiver",1666,"2015","2017","urn:uuid:da7a2a8e-5f31-4df2-8d17-deca1f7caba1","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:da7a2a8e-5f31-4df2-8d17-deca1f7caba1","Dan Bogan","dlbogan@uaa.alaska.edu",59.70342,-156.30147
+"VictoriaCreek_1668_2015_2017.csv","VictoriaCreek",1668,"2015","2017","urn:uuid:7489ab98-a53d-4bc7-97ff-d2c9721df381","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:7489ab98-a53d-4bc7-97ff-d2c9721df381","Dan Bogan","dlbogan@uaa.alaska.edu",60.6895,-154.86369
+"BonanzaCreek_1664_2015_2017.csv","BonanzaCreek",1664,"2015","2017","urn:uuid:c3acf655-f169-4894-9b55-9f3f322572d4","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:c3acf655-f169-4894-9b55-9f3f322572d4","Dan Bogan","dlbogan@uaa.alaska.edu",60.69262,-154.86514
+"IndianRiver_757_2010_2016.csv","IndianRiver",757,"2010","2016","urn:uuid:85e76ff6-bc22-4a5a-b056-c749f3e9b333","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:85e76ff6-bc22-4a5a-b056-c749f3e9b333","Chris Sergeant","christopher_sergeant@nps.gov",57.052797,-135.317486
+"SalmonRiver_758_2010_2016.csv","SalmonRiver",758,"2010","2016","urn:uuid:68c81a8f-28b9-4993-ac0f-16caba425c59","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:68c81a8f-28b9-4993-ac0f-16caba425c59","Chris Sergeant","christopher_sergeant@nps.gov",58.45235,-135.7409
+"TaiyaRiver_759_2011_2016.csv","TaiyaRiver",759,"2011","2016","urn:uuid:29772a76-cc77-4f31-b65b-eedc5903a1bf","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:29772a76-cc77-4f31-b65b-eedc5903a1bf","Chris Sergeant","christopher_sergeant@nps.gov",59.511975,-135.346363
+"ChenaRiver_1787_2009_2015.csv","ChenaRiver",1787,"2009","2015","urn:uuid:e49e7c5f-bdf5-42fb-ab74-8acfa1cb82db","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e49e7c5f-bdf5-42fb-ab74-8acfa1cb82db","Don Rivard","Donald_Rivard@fws.gov",64.79427,-147.15146
+"TatlawiksukRiver_1576_2008_2015.csv","TatlawiksukRiver",1576,"2008","2015","urn:uuid:a2f06ece-4782-42b7-92a4-f18d75aa862c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a2f06ece-4782-42b7-92a4-f18d75aa862c","Don Rivard","Donald_Rivard@fws.gov",61.93485,-156.18997
+"TuluksakRiver_1573_2008_2015.csv","TuluksakRiver",1573,"2008","2015","urn:uuid:8745ecdb-6b32-4a9e-95b5-3a7d664e4f8d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:8745ecdb-6b32-4a9e-95b5-3a7d664e4f8d","Don Rivard","Donald_Rivard@fws.gov",61.04403,-160.58415
+"EastForkAndreafsky_1577_2008_2015.csv","EastForkAndreafsky",1577,"2008","2015","urn:uuid:ef48ca72-61b4-4329-a721-6e0f92d5fa95","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ef48ca72-61b4-4329-a721-6e0f92d5fa95","Don Rivard","Donald_Rivard@fws.gov",62.11665,-162.80532
+"NewhalenRiver_1571_2008_2015.csv","NewhalenRiver",1571,"2008","2015","urn:uuid:88a221ef-398e-4b5d-b7a6-ac226677943c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:88a221ef-398e-4b5d-b7a6-ac226677943c","Don Rivard","Donald_Rivard@fws.gov",59.91904,-154.8859
+"TelaquanaRiver_1789_2010_2015.csv","TelaquanaRiver",1789,"2010","2015","urn:uuid:fd95258d-b5f7-4932-a6b6-d6f3a4e51e76","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:fd95258d-b5f7-4932-a6b6-d6f3a4e51e76","Don Rivard","Donald_Rivard@fws.gov",60.95877,-154.04652
+"SalchaRiver_1580_2008_2015.csv","SalchaRiver",1580,"2008","2015","urn:uuid:902ef2dd-5a26-4439-8ef1-f0d7047e971c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:902ef2dd-5a26-4439-8ef1-f0d7047e971c","Don Rivard","Donald_Rivard@fws.gov",64.4772,-146.7826
+"AniakRiver_1574_2008_2011.csv","AniakRiver",1574,"2008","2011","urn:uuid:8e122ea1-2c97-4dc9-b444-585f472f859f","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:8e122ea1-2c97-4dc9-b444-585f472f859f","Don Rivard","Donald_Rivard@fws.gov",61.5027,-159.3742
+"NevaCreek_1570_2008_2015.csv","NevaCreek",1570,"2008","2015","urn:uuid:3b7e9a2a-5800-440e-bac8-f407d71dba98","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3b7e9a2a-5800-440e-bac8-f407d71dba98","Don Rivard","Donald_Rivard@fws.gov",58.406,-135.4116
+"GisasaRiver_1581_2008_2015.csv","GisasaRiver",1581,"2008","2015","urn:uuid:9ca43302-8d3e-42f4-ba32-b5417691c70b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9ca43302-8d3e-42f4-ba32-b5417691c70b","Don Rivard","Donald_Rivard@fws.gov",65.25295,-157.7144
+"KogruklukRiver_1945_2008_2015.csv","KogruklukRiver",1945,"2008","2015","urn:uuid:f76cf246-0b1c-457f-af51-acf2bca2b5c7","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f76cf246-0b1c-457f-af51-acf2bca2b5c7","Don Rivard","Donald_Rivard@fws.gov",NA,NA
+"UnalakleetRiver_1949_2011_2015.csv","UnalakleetRiver",1949,"2011","2015","urn:uuid:3b7fb306-9000-49ad-ad09-c96c723e7c4b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3b7fb306-9000-49ad-ad09-c96c723e7c4b","Don Rivard","Donald_Rivard@fws.gov",NA,NA
+"ChandalarRiver_1583_2008_2015.csv","ChandalarRiver",1583,"2008","2015","urn:uuid:a9d5e4bc-dca7-42f7-8309-040f21476a83","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a9d5e4bc-dca7-42f7-8309-040f21476a83","Don Rivard","Donald_Rivard@fws.gov",66.7017,-146.0386
+"KlagLakeOutflow_1790_2009_2015.csv","KlagLakeOutflow",1790,"2009","2015","urn:uuid:a00218d7-b714-446d-ac5e-88676db5df0d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a00218d7-b714-446d-ac5e-88676db5df0d","Don Rivard","Donald_Rivard@fws.gov",57.64022,-135.91932
+"AfognakRiver_1944_2008_2015.csv","AfognakRiver",1944,"2008","2015","urn:uuid:dd2caaab-a02e-42de-bc0e-64f816aabfc9","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:dd2caaab-a02e-42de-bc0e-64f816aabfc9","Don Rivard","Donald_Rivard@fws.gov",58.08183,-152.82833
+"LongLakeCreek_1579_2008_2015.csv","LongLakeCreek",1579,"2008","2015","urn:uuid:25b5bc0c-ea98-4999-9993-508898a01d43","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:25b5bc0c-ea98-4999-9993-508898a01d43","Don Rivard","Donald_Rivard@fws.gov",62.6142,-143.7785
+"HenshawCreek_1582_2008_2015.csv","HenshawCreek",1582,"2008","2015","urn:uuid:86e41952-604f-4860-8a49-aabfc73368c5","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:86e41952-604f-4860-8a49-aabfc73368c5","Don Rivard","Donald_Rivard@fws.gov",66.5567,-152.2095
+"BuskinRiver_1568_2008_2015.csv","BuskinRiver",1568,"2008","2015","urn:uuid:e5214225-628e-4b9e-aca7-429dccc7b38a","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e5214225-628e-4b9e-aca7-429dccc7b38a","Don Rivard","Donald_Rivard@fws.gov",57.75585,-152.5043
+"TanadaCreek_1578_2008_2015.csv","TanadaCreek",1578,"2008","2015","urn:uuid:f48cce77-a3e8-4b84-bf9d-71f5e46fb420","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f48cce77-a3e8-4b84-bf9d-71f5e46fb420","Don Rivard","Donald_Rivard@fws.gov",62.6141,-143.7785
+"SheenjekRiver_1947_2008_2012.csv","SheenjekRiver",1947,"2008","2012","urn:uuid:ae24c87a-13b4-44ba-8dcd-0c394361e06d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ae24c87a-13b4-44ba-8dcd-0c394361e06d","Don Rivard","Donald_Rivard@fws.gov",NA,NA
+"SalmonRiver_1946_2008_2015.csv","SalmonRiver",1946,"2008","2015","urn:uuid:036bd6cc-577f-4813-bccd-5b39d2715bf9","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:036bd6cc-577f-4813-bccd-5b39d2715bf9","Don Rivard","Donald_Rivard@fws.gov",NA,NA
+"KwethlukRiver_1572_2008_2015.csv","KwethlukRiver",1572,"2008","2015","urn:uuid:f449741b-9063-4371-b3c3-a7c37d4a4548","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f449741b-9063-4371-b3c3-a7c37d4a4548","Don Rivard","Donald_Rivard@fws.gov",60.51828,-161.09245
+"KanalkuCreek_1567_2008_2009.csv","KanalkuCreek",1567,"2008","2009","urn:uuid:8e9e8374-6490-4f19-9e26-9644dc39a441","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:8e9e8374-6490-4f19-9e26-9644dc39a441","Don Rivard","Donald_Rivard@fws.gov",57.4932,-134.3645
+"GeorgeRiver_1575_2008_2015.csv","GeorgeRiver",1575,"2008","2015","urn:uuid:290b7bdc-b660-4048-9e26-8611e1a81a88","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:290b7bdc-b660-4048-9e26-8611e1a81a88","Don Rivard","Donald_Rivard@fws.gov",61.925,-157.70167
+"TakotnaRiver_1948_2008_2013.csv","TakotnaRiver",1948,"2008","2013","urn:uuid:8453894e-9104-4241-90e1-e01ddfc59f07","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:8453894e-9104-4241-90e1-e01ddfc59f07","Don Rivard","Donald_Rivard@fws.gov",NA,NA
+"FallsCreek_1788_2010_2015.csv","FallsCreek",1788,"2010","2015","urn:uuid:ed4f2a64-bd5f-43bb-ab6f-06a7e95bd37a","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ed4f2a64-bd5f-43bb-ab6f-06a7e95bd37a","Don Rivard","Donald_Rivard@fws.gov",56.827,-134.693
+"AnvikRiver_1786_2008_2013.csv","AnvikRiver",1786,"2008","2013","urn:uuid:4803712a-b956-48d9-adb0-19125a0777e8","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:4803712a-b956-48d9-adb0-19125a0777e8","Don Rivard","Donald_Rivard@fws.gov",62.80347,-160.67873
+"AyakulikRiver_973_2016_2017.csv","AyakulikRiver",973,"2016","2017","urn:uuid:8cad5075-3876-471c-81b3-6814c6ebba68","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:8cad5075-3876-471c-81b3-6814c6ebba68","James Jackson","james.jackson@alaska.gov",57.19333,-154.52317
+"DogSalmonCreek_1942_2016_2017.csv","DogSalmonCreek",1942,"2016","2017","urn:uuid:cbf02b0c-0d58-4188-a20b-cc1353e6fa97","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:cbf02b0c-0d58-4188-a20b-cc1353e6fa97","Heather Finkle","heather.finkle@alaska.gov",57.662217,-153.32325
+"DogSalmonCreek_972_2016_2017.csv","DogSalmonCreek",972,"2016","2017","urn:uuid:a1a8820b-4fda-4707-9b92-bb688650757b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a1a8820b-4fda-4707-9b92-bb688650757b","Heather Finkle","heather.finkle@alaska.gov",57.12917,-154.00167
+"AkaluraLake_942_2016_2017.csv","AkaluraLake",942,"2016","2017","urn:uuid:d34db64f-3803-447e-9748-de17ec797207","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d34db64f-3803-447e-9748-de17ec797207","Heather Finkle","heather.finkle@alaska.gov",57.18737,-154.2192
+"AfognakLake_959_2017.csv","AfognakLake",959,"2017","csv","urn:uuid:928ea107-580f-4c82-bc96-1bc6118a51fd","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:928ea107-580f-4c82-bc96-1bc6118a51fd","Heather Finkle","heather.finkle@alaska.gov",58.101866,-152.892795
+"SpiridonLake_956_2017.csv","SpiridonLake",956,"2017","csv","urn:uuid:352d39f8-6ccf-4452-b8b4-be6755cbaa6c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:352d39f8-6ccf-4452-b8b4-be6755cbaa6c","Heather Finkle","heather.finkle@alaska.gov",57.73217,-153.69348
+"KarlukRiver_974_2016_2017.csv","KarlukRiver",974,"2016","2017","urn:uuid:26e6f33e-cb3c-4817-866b-0d31fd6bfe38","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:26e6f33e-cb3c-4817-866b-0d31fd6bfe38","Trenten Dodson","kraa.dodson@gci.net",57.56483,-154.38083
+"UganikLake_953_2017.csv","UganikLake",953,"2017","csv","urn:uuid:9b05c29d-5ca4-4e55-898b-3ba6872d5f41","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9b05c29d-5ca4-4e55-898b-3ba6872d5f41","Heather Finkle","heather.finkle@alaska.gov",57.66222,-153.32325
+"FishCreek_718_2012_2014.csv","FishCreek",718,"2012","2014","urn:uuid:14e4d90f-322a-4c8b-906b-82089671f6a9","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:14e4d90f-322a-4c8b-906b-82089671f6a9","Chris Arp","cdarp@alaska.edu",70.14686,-151.764672
+"TeshekpukLake_741_2012_2014.csv","TeshekpukLake",741,"2012","2014","urn:uuid:a1a8e0df-64a1-4001-bf50-1c5a2dbbdaa1","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a1a8e0df-64a1-4001-bf50-1c5a2dbbdaa1","Chris Arp","cdarp@alaska.edu",70.78914,-153.47001
+"FishCreek_721_2012_2014.csv","FishCreek",721,"2012","2014","urn:uuid:a7b20ece-16ec-423d-a560-06f138835f46","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a7b20ece-16ec-423d-a560-06f138835f46","Chris Arp","cdarp@alaska.edu",70.24689,-151.47762
+"FishCreek_720_2012_2014.csv","FishCreek",720,"2012","2014","urn:uuid:7974483b-2f98-4659-a647-b81fbb8da95f","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:7974483b-2f98-4659-a647-b81fbb8da95f","Chris Arp","cdarp@alaska.edu",70.21893,-153.17164
+"IkpikpakRiver_745_2012_2014.csv","IkpikpakRiver",745,"2012","2014","urn:uuid:24e7f5d3-b322-40bc-b27e-1af968fa13c0","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:24e7f5d3-b322-40bc-b27e-1af968fa13c0","Chris Arp","cdarp@alaska.edu",70.81512,-154.42441
+"IkpikpakRiver_742_2012_2014.csv","IkpikpakRiver",742,"2012","2014","urn:uuid:c10b28d0-e360-4aef-b7a7-82a1d7da5afe","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:c10b28d0-e360-4aef-b7a7-82a1d7da5afe","Chris Arp","cdarp@alaska.edu",70.78966,-154.45043
+"FishCreek_719_2012_2014.csv","FishCreek",719,"2012","2014","urn:uuid:c0f2863f-25c1-4560-9c64-10afd679e58c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:c0f2863f-25c1-4560-9c64-10afd679e58c","Chris Arp","cdarp@alaska.edu",70.20547,-151.179802
+"NakaktukLakes_701_2012_2014.csv","NakaktukLakes",701,"2012","2014","urn:uuid:443e857a-6d20-4c16-9b1a-493de6387887","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:443e857a-6d20-4c16-9b1a-493de6387887","Chris Arp","cdarp@alaska.edu",69.28254,-152.16701
+"NakaktukLakes_703_2012_2014.csv","NakaktukLakes",703,"2012","2014","urn:uuid:cda6ed97-47ea-485e-b78c-12d416d5ab71","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:cda6ed97-47ea-485e-b78c-12d416d5ab71","Chris Arp","cdarp@alaska.edu",69.35533,-152.01769
+"NakaktukLakes_700_2012_2014.csv","NakaktukLakes",700,"2012","2014","urn:uuid:6eb19390-fe3e-458b-bed1-7f0f16032a15","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6eb19390-fe3e-458b-bed1-7f0f16032a15","Chris Arp","cdarp@alaska.edu",69.27923,-152.12693
+"ToolikLake_695_2012_2014.csv","ToolikLake",695,"2012","2014","urn:uuid:7c7e5c9e-dee4-476d-a923-43e87cb0ea24","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:7c7e5c9e-dee4-476d-a923-43e87cb0ea24","Chris Arp","cdarp@alaska.edu",68.64916,-149.84899
+"NakaktukLakes_702_2012_2014.csv","NakaktukLakes",702,"2012","2014","urn:uuid:13003f32-0075-4839-b45f-3db8d9f8996e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:13003f32-0075-4839-b45f-3db8d9f8996e","Chris Arp","cdarp@alaska.edu",69.34589,-152.24869
+"ToolikLake_697_2012_2014.csv","ToolikLake",697,"2012","2014","urn:uuid:0873a4bc-dbd5-4334-a164-887fbe599714","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0873a4bc-dbd5-4334-a164-887fbe599714","Chris Arp","cdarp@alaska.edu",68.66268,-149.68737
+"TeshekpukLake_732_2012_2014.csv","TeshekpukLake",732,"2012","2014","urn:uuid:c1c054dc-fb6d-4f10-aeb6-f36196b249d7","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:c1c054dc-fb6d-4f10-aeb6-f36196b249d7","Chris Arp","cdarp@alaska.edu",70.69273,-153.73894
+"TeshekpukLake_737_2012_2014.csv","TeshekpukLake",737,"2012","2014","urn:uuid:47654fdb-e3a6-4b82-8ec1-f2446ab7f9ee","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:47654fdb-e3a6-4b82-8ec1-f2446ab7f9ee","Chris Arp","cdarp@alaska.edu",70.76625,-153.56248
+"ToolikLake_694_2012_2014.csv","ToolikLake",694,"2012","2014","urn:uuid:e149b4a3-61fa-45d4-9875-8b70c58d6d1f","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e149b4a3-61fa-45d4-9875-8b70c58d6d1f","Chris Arp","cdarp@alaska.edu",68.633,-149.605
+"ToolikLake_693_2012_2014.csv","ToolikLake",693,"2012","2014","urn:uuid:a40a9f70-f581-46bd-8bcf-f42c49be1a9c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a40a9f70-f581-46bd-8bcf-f42c49be1a9c","Chris Arp","cdarp@alaska.edu",68.63163,-149.83452
+"TeshekpukLake_735_2012_2014.csv","TeshekpukLake",735,"2012","2014","urn:uuid:b98bef44-5ada-40c3-a110-a298d839d117","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b98bef44-5ada-40c3-a110-a298d839d117","Chris Arp","cdarp@alaska.edu",70.75189,-153.86877
+"FishCreek_713_2012_2014.csv","FishCreek",713,"2012","2014","urn:uuid:bb9d2c38-f0c2-496c-9b61-8a9636131eb2","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:bb9d2c38-f0c2-496c-9b61-8a9636131eb2","Chris Arp","cdarp@alaska.edu",70.01033,-153.15491
+"FishCreek_722_2012_2014.csv","FishCreek",722,"2012","2014","urn:uuid:246f4072-ed94-4c96-b2b1-7eff841172bb","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:246f4072-ed94-4c96-b2b1-7eff841172bb","Chris Arp","cdarp@alaska.edu",70.26666,-151.38647
+"TeshekpukLake_746_2012_2014.csv","TeshekpukLake",746,"2012","2014","urn:uuid:9162d231-e54a-46ab-aa24-ad04ff847eff","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9162d231-e54a-46ab-aa24-ad04ff847eff","Chris Arp","cdarp@alaska.edu",70.8679,-153.77329
+"ToolikLake_698_2012_2014.csv","ToolikLake",698,"2012","2014","urn:uuid:dcc1fe59-e7c1-4ea9-8029-d2f0fa10be82","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:dcc1fe59-e7c1-4ea9-8029-d2f0fa10be82","Chris Arp","cdarp@alaska.edu",68.67479,-149.62672
+"TeshekpukLake_733_2012_2014.csv","TeshekpukLake",733,"2012","2014","urn:uuid:b1a61eb2-23cb-4e77-9934-8114bb51c9b8","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b1a61eb2-23cb-4e77-9934-8114bb51c9b8","Chris Arp","cdarp@alaska.edu",70.70613,-153.92424
+"NakaktukLakes_699_2012_2014.csv","NakaktukLakes",699,"2012","2014","urn:uuid:9f4ec912-02a1-4787-9d3d-9b839c243d6d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9f4ec912-02a1-4787-9d3d-9b839c243d6d","Chris Arp","cdarp@alaska.edu",69.22233,-152.27674
+"FishCreek_706_2012_2014.csv","FishCreek",706,"2012","2014","urn:uuid:f5c17c33-a7e9-4f88-a12e-2a32c6111468","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f5c17c33-a7e9-4f88-a12e-2a32c6111468","Chris Arp","cdarp@alaska.edu",69.95922,-152.95072
+"IkpikpakRiver_744_2012_2014.csv","IkpikpakRiver",744,"2012","2014","urn:uuid:5464c1f3-8370-4865-a420-3f4bb1fc10a2","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5464c1f3-8370-4865-a420-3f4bb1fc10a2","Chris Arp","cdarp@alaska.edu",70.79303,-154.51704
+"FishCreek_710_2012_2014.csv","FishCreek",710,"2012","2014","urn:uuid:59bd818e-d78d-4a25-a21c-fed540de2b9b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:59bd818e-d78d-4a25-a21c-fed540de2b9b","Chris Arp","cdarp@alaska.edu",69.99615,-153.07007
+"FishCreek_725_2012_2014.csv","FishCreek",725,"2012","2014","urn:uuid:9b484c47-f7a3-48d5-aea7-6489bbe8d27c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9b484c47-f7a3-48d5-aea7-6489bbe8d27c","Chris Arp","cdarp@alaska.edu",70.29898,-151.46259
+"NakaktukLakes_704_2012_2014.csv","NakaktukLakes",704,"2012","2014","urn:uuid:e8449bf0-cd8c-4bfc-a518-ae98558e68eb","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e8449bf0-cd8c-4bfc-a518-ae98558e68eb","Chris Arp","cdarp@alaska.edu",69.45504,-151.00814
+"ToolikLake_696_2012_2014.csv","ToolikLake",696,"2012","2014","urn:uuid:8fffd78c-ca22-42f2-af53-2ed0f943f155","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:8fffd78c-ca22-42f2-af53-2ed0f943f155","Chris Arp","cdarp@alaska.edu",68.65247,-149.59947
+"FishCreek_723_2012_2014.csv","FishCreek",723,"2012","2014","urn:uuid:2eeaa3a0-27d6-4077-a52f-e757a62fa598","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:2eeaa3a0-27d6-4077-a52f-e757a62fa598","Chris Arp","cdarp@alaska.edu",70.2697,-151.35505
+"FishCreek_712_2012_2014.csv","FishCreek",712,"2012","2014","urn:uuid:421fb387-d4d4-4d7c-a2a7-752368e25e80","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:421fb387-d4d4-4d7c-a2a7-752368e25e80","Chris Arp","cdarp@alaska.edu",69.99998,-153.03666
+"FishCreek_715_2012_2014.csv","FishCreek",715,"2012","2014","urn:uuid:5b8a43a9-ff79-4a04-81e9-920b55538a97","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5b8a43a9-ff79-4a04-81e9-920b55538a97","Chris Arp","cdarp@alaska.edu",70.01843,-153.18606
+"TlikakilaRiver_1941_2014_2017.csv","TlikakilaRiver",1941,"2014","2017","urn:uuid:ba8e5f0a-f870-4a69-a342-c9358cf28f1f","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ba8e5f0a-f870-4a69-a342-c9358cf28f1f","Krista Bartz","krista_bartz@nps.gov",60.49937,-153.68665
+"LittleKijikRiver_1939_2014_2017.csv","LittleKijikRiver",1939,"2014","2017","urn:uuid:1e8f0646-2e64-41c6-8110-b950287c263e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:1e8f0646-2e64-41c6-8110-b950287c263e","Krista Bartz","krista_bartz@nps.gov",60.30727,-154.29102
+"TaziminaRiver_1940_2014_2017.csv","TaziminaRiver",1940,"2014","2017","urn:uuid:de1d274a-01cf-4c1f-9f9f-1b0e068e109c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:de1d274a-01cf-4c1f-9f9f-1b0e068e109c","Krista Bartz","krista_bartz@nps.gov",59.934737,-154.835196
+"LakeClarkOutlet_1633_2009_2015.csv","LakeClarkOutlet",1633,"2009","2015","urn:uuid:6d03d67f-8e6c-41ba-b970-656b3886302c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6d03d67f-8e6c-41ba-b970-656b3886302c","Krista Bartz","krista_bartz@nps.gov",60.01606,-154.75417
+"KijikLake_1934_2014_2017.csv","KijikLake",1934,"2014","2017","urn:uuid:66c526b3-0e0c-41c9-93f5-1a084555c026","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:66c526b3-0e0c-41c9-93f5-1a084555c026","Krista Bartz","krista_bartz@nps.gov",60.28634,-154.34644
+"UpATreeCreek_1938_2014_2017.csv","UpATreeCreek",1938,"2014","2017","urn:uuid:600bdd6f-373f-4fc1-80c9-f08616868d12","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:600bdd6f-373f-4fc1-80c9-f08616868d12","Krista Bartz","krista_bartz@nps.gov",58.5113383745,-155.803890375
+"MargotCreek_1937_2014_2017.csv","MargotCreek",1937,"2014","2017","urn:uuid:a49569d3-432f-41d5-ace8-b0ba478856dd","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a49569d3-432f-41d5-ace8-b0ba478856dd","Krista Bartz","krista_bartz@nps.gov",58.4859344835,-155.577723084
+"NaknekLake_1431_2011_2015.csv","NaknekLake",1431,"2011","2015","urn:uuid:e6b3bdee-7032-4459-9b75-893e7c6ac1b9","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e6b3bdee-7032-4459-9b75-893e7c6ac1b9","Krista Bartz","krista_bartz@nps.gov",58.52172,-155.60376
+"KijikLake_1523_2010_2015.csv","KijikLake",1523,"2010","2015","urn:uuid:edb6eb42-b2fb-40cc-9373-08230e5e2878","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:edb6eb42-b2fb-40cc-9373-08230e5e2878","Krista Bartz","krista_bartz@nps.gov",60.29717,-154.32979
+"NaknekLakeOutletRiver_1631_2012_2015.csv","NaknekLakeOutletRiver",1631,"2012","2015","urn:uuid:9a4d7f1e-a812-4763-8239-00c6b3665db6","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9a4d7f1e-a812-4763-8239-00c6b3665db6","Krista Bartz","krista_bartz@nps.gov",58.6817071606,-156.434890546
+"LakeClark_1933_2014_2017.csv","LakeClark",1933,"2014","2017","urn:uuid:e271b1ed-94f7-42a7-9c52-45936fa50e81","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e271b1ed-94f7-42a7-9c52-45936fa50e81","Krista Bartz","krista_bartz@nps.gov",60.2803,-154.26578
+"LakeClark_1935_2014_2016.csv","LakeClark",1935,"2014","2016","urn:uuid:733a35b1-8bf2-44a3-941d-b9a1b781c18d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:733a35b1-8bf2-44a3-941d-b9a1b781c18d","Krista Bartz","krista_bartz@nps.gov",60.19009,-154.35281
+"NaknekLake_1450_2008_2015.csv","NaknekLake",1450,"2008","2015","urn:uuid:69023028-8f86-4a05-a8c9-fde6b0fabb94","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:69023028-8f86-4a05-a8c9-fde6b0fabb94","Krista Bartz","krista_bartz@nps.gov",58.61661,-156.03706
+"LakeClark_1514_2006_2015.csv","LakeClark",1514,"2006","2015","urn:uuid:abdb7510-b62c-43b6-89b6-3a8d101bc386","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:abdb7510-b62c-43b6-89b6-3a8d101bc386","Krista Bartz","krista_bartz@nps.gov",60.26287,-154.24115
+"LakeBrooks_1435_2010_2015.csv","LakeBrooks",1435,"2010","2015","urn:uuid:332c2228-5854-45c4-ade2-8ed1e69ca9dd","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:332c2228-5854-45c4-ade2-8ed1e69ca9dd","Krista Bartz","krista_bartz@nps.gov",58.53024,-155.85461
+"NaknekLake_1458_2008_2015.csv","NaknekLake",1458,"2008","2015","urn:uuid:108f3921-c5bf-4f2d-aa98-4e4c5289f4f4","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:108f3921-c5bf-4f2d-aa98-4e4c5289f4f4","Krista Bartz","krista_bartz@nps.gov",58.63667,-155.63759
+"IdavainCreek_1936_2016_2017.csv","IdavainCreek",1936,"2016","2017","urn:uuid:ded8b290-32e8-4a3f-aeb3-d425b04292de","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ded8b290-32e8-4a3f-aeb3-d425b04292de","Krista Bartz","krista_bartz@nps.gov",58.66621,-155.67084
+"CacheCreek_1415_2008_2012.csv","CacheCreek",1415,"2008","2012","urn:uuid:208cfee5-3b66-493e-b9b4-c636ed11a25a","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:208cfee5-3b66-493e-b9b4-c636ed11a25a","Sue Mauger","sue@inletkeeper.org",62.389,-151.081
+"CottonwoodCreek_1402_2008_2012.csv","CottonwoodCreek",1402,"2008","2012","urn:uuid:4bd85e38-c5ac-4615-b275-7343493c48fb","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:4bd85e38-c5ac-4615-b275-7343493c48fb","Sue Mauger","sue@inletkeeper.org",61.525,-149.527
+"PanaruqakCreek_1370_2014_2016.csv","PanaruqakCreek",1370,"2014","2016","urn:uuid:3350a534-b709-4237-a89d-513a58b0f649","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3350a534-b709-4237-a89d-513a58b0f649","Sue Mauger","sue@inletkeeper.org",59.45447,-157.31436
+"LittleWillowCreek_1410_2008_2017.csv","LittleWillowCreek",1410,"2008","2017","urn:uuid:eee0690c-c8ea-4739-b09e-e4c009786dca","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:eee0690c-c8ea-4739-b09e-e4c009786dca","Sue Mauger","sue@inletkeeper.org",61.81,-150.099
+"TrapperCreek_1414_2008_2012.csv","TrapperCreek",1414,"2008","2012","urn:uuid:fdf808b7-883a-4a7e-9324-89a12b1edfd0","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:fdf808b7-883a-4a7e-9324-89a12b1edfd0","Sue Mauger","sue@inletkeeper.org",62.266,-150.184
+"ChijukCreek_1411_2008_2012.csv","ChijukCreek",1411,"2008","2012","urn:uuid:44ecd1ef-ad5a-47c8-9a12-2248c411fdce","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:44ecd1ef-ad5a-47c8-9a12-2248c411fdce","Sue Mauger","sue@inletkeeper.org",62.079631,-150.583145
+"DeepCreek_1378_2002_2011.csv","DeepCreek",1378,"2002","2011","urn:uuid:0a479487-55fb-4507-a740-a4789d06ea20","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0a479487-55fb-4507-a740-a4789d06ea20","Sue Mauger","sue@inletkeeper.org",60.033,-151.671
+"NikolaiCreek_1380_2008_2012.csv","NikolaiCreek",1380,"2008","2012","urn:uuid:ddbfaa6e-1780-4891-8840-214c8f7d5dc8","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ddbfaa6e-1780-4891-8840-214c8f7d5dc8","Sue Mauger","sue@inletkeeper.org",60.195,-151.009
+"GibraltarRiver_1829_2016_2016.csv","GibraltarRiver",1829,"2016","2016","urn:uuid:76705f25-681a-4d92-9c0b-b5ee0f7fff30","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:76705f25-681a-4d92-9c0b-b5ee0f7fff30","Sue Mauger","sue@inletkeeper.org",59.42944,-154.83261
+"BishopCreek_1390_2008_2015.csv","BishopCreek",1390,"2008","2015","urn:uuid:344e24b5-6b1e-4f29-a9c7-69678cbebd5e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:344e24b5-6b1e-4f29-a9c7-69678cbebd5e","Sue Mauger","sue@inletkeeper.org",60.768,-151.103
+"AnchorCreek_1374_2002_2017.csv","AnchorCreek",1374,"2002","2017","urn:uuid:62f30fe8-25a3-42f6-ae23-ed0ae7a08f69","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:62f30fe8-25a3-42f6-ae23-ed0ae7a08f69","Sue Mauger","sue@inletkeeper.org",59.773,-151.834
+"MontanaCreek_1412_2008_2011.csv","MontanaCreek",1412,"2008","2011","urn:uuid:db7d0267-d8da-4a67-9fa4-494dab20b837","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:db7d0267-d8da-4a67-9fa4-494dab20b837","Sue Mauger","sue@inletkeeper.org",62.128,-150.019
+"CopperRiver_1828_2016_2016.csv","CopperRiver",1828,"2016","2016","urn:uuid:b020e0dd-b36c-4438-8dc7-db7198e6e662","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b020e0dd-b36c-4438-8dc7-db7198e6e662","Sue Mauger","sue@inletkeeper.org",59.50208,-154.46576
+"ShipCreek_1397_2008_2011.csv","ShipCreek",1397,"2008","2011","urn:uuid:afea9857-f696-44e9-a223-52ebe2d4d2e8","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:afea9857-f696-44e9-a223-52ebe2d4d2e8","Sue Mauger","sue@inletkeeper.org",61.227,-149.831
+"BodenburgCreek_1401_2009_2012.csv","BodenburgCreek",1401,"2009","2012","urn:uuid:64053012-359e-4ee2-9072-08daa147da5f","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:64053012-359e-4ee2-9072-08daa147da5f","Sue Mauger","sue@inletkeeper.org",61.510674,-149.031524
+"MooseRiver_1388_2008_2012.csv","MooseRiver",1388,"2008","2012","urn:uuid:46c4f179-ddf4-413d-82af-5a213e9bf2e1","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:46c4f179-ddf4-413d-82af-5a213e9bf2e1","Sue Mauger","sue@inletkeeper.org",60.557,-150.735
+"SwansonRiver_1391_2008_2011.csv","SwansonRiver",1391,"2008","2011","urn:uuid:047f9a6d-bbd7-47f7-8fe4-3d0aa5a5cb90","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:047f9a6d-bbd7-47f7-8fe4-3d0aa5a5cb90","Sue Mauger","sue@inletkeeper.org",60.792,-151.012
+"SeldoviaRiver_1369_2008_2012.csv","SeldoviaRiver",1369,"2008","2012","urn:uuid:f79f8f1d-5c55-4f3b-b776-fc83edcc7389","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f79f8f1d-5c55-4f3b-b776-fc83edcc7389","Sue Mauger","sue@inletkeeper.org",59.389,-151.68
+"MeadowCreek_1405_2008_2011.csv","MeadowCreek",1405,"2008","2011","urn:uuid:666524d5-1fd3-4c24-b035-e3a320b18006","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:666524d5-1fd3-4c24-b035-e3a320b18006","Sue Mauger","sue@inletkeeper.org",61.563,-149.824
+"NeilsonCreek_1365_2014_2016.csv","NeilsonCreek",1365,"2014","2016","urn:uuid:3d5df17d-0d27-4086-86b6-b25d0a41eaf0","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3d5df17d-0d27-4086-86b6-b25d0a41eaf0","Sue Mauger","sue@inletkeeper.org",59.1522,-158.63428
+"SoldotnaCreek_1385_2008_2015.csv","SoldotnaCreek",1385,"2008","2015","urn:uuid:f957c896-df79-46cb-95f4-cb700e8f5188","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f957c896-df79-46cb-95f4-cb700e8f5188","Sue Mauger","sue@inletkeeper.org",60.489,-151.044
+"BigCreek_1943_2016_2016.csv","BigCreek",1943,"2016","2016","urn:uuid:a58356d1-9e74-4710-8dd1-a169f98a33bb","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a58356d1-9e74-4710-8dd1-a169f98a33bb","Sue Mauger","sue@inletkeeper.org",58.63348,-156.61507
+"LostDogCreek_1830_2016_2016.csv","LostDogCreek",1830,"2016","2016","urn:uuid:f331c003-97f8-4c35-99d2-6842aa5dd879","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f331c003-97f8-4c35-99d2-6842aa5dd879","Sue Mauger","sue@inletkeeper.org",60.491,-156.88458
+"AlexanderCreek_1400_2008_2011.csv","AlexanderCreek",1400,"2008","2011","urn:uuid:d50a7fd8-46d7-4703-8fd5-1839541adfcb","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d50a7fd8-46d7-4703-8fd5-1839541adfcb","Sue Mauger","sue@inletkeeper.org",61.44,-150.596
+"ShantatalikCreek_1381_2008_2012.csv","ShantatalikCreek",1381,"2008","2012","urn:uuid:0dc29bdf-8c92-4645-a319-b070e9d2c04e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0dc29bdf-8c92-4645-a319-b070e9d2c04e","Sue Mauger","sue@inletkeeper.org",60.291,-150.985
+"MooseCreek_1406_2008_2011.csv","MooseCreek",1406,"2008","2011","urn:uuid:2c6af62c-57ea-4151-b516-4965ef0a66d7","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:2c6af62c-57ea-4151-b516-4965ef0a66d7","Sue Mauger","sue@inletkeeper.org",61.682,-149.043
+"SivanguqCreek_1372_2014_2017.csv","SivanguqCreek",1372,"2014","2017","urn:uuid:0d2e14e9-4f29-444f-acdc-4df70418ba4b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0d2e14e9-4f29-444f-acdc-4df70418ba4b","Sue Mauger","sue@inletkeeper.org",59.72696,-157.33818
+"SilverSalmonCreek_1377_2008_2011.csv","SilverSalmonCreek",1377,"2008","2011","urn:uuid:6a5fa7a7-9452-48c2-94a8-ff739522e46c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6a5fa7a7-9452-48c2-94a8-ff739522e46c","Sue Mauger","sue@inletkeeper.org",59.981842,-152.678593
+"FoxCreek_1375_2009_2012.csv","FoxCreek",1375,"2009","2012","urn:uuid:6ab67722-2e03-439e-a3fe-c83cb6f658a5","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6ab67722-2e03-439e-a3fe-c83cb6f658a5","Sue Mauger","sue@inletkeeper.org",59.799,-151.056
+"BeaverCreek_1389_2008_2013.csv","BeaverCreek",1389,"2008","2013","urn:uuid:bb1415cc-e704-4ae5-aebe-3d23bc675d7e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:bb1415cc-e704-4ae5-aebe-3d23bc675d7e","Sue Mauger","sue@inletkeeper.org",60.561,-151.123
+"KrotoCreek_1407_2008_2017.csv","KrotoCreek",1407,"2008","2017","urn:uuid:3b6f0b82-57d9-4749-9c9b-a98f10221964","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3b6f0b82-57d9-4749-9c9b-a98f10221964","Sue Mauger","sue@inletkeeper.org",61.74,-150.32
+"MooseCreek_1413_2008_2012.csv","MooseCreek",1413,"2008","2012","urn:uuid:bebe8340-bd79-44ed-a667-e60e1ce0d1f6","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:bebe8340-bd79-44ed-a667-e60e1ce0d1f6","Sue Mauger","sue@inletkeeper.org",62.229,-150.441
+"RabbitCreek_1393_2008_2010.csv","RabbitCreek",1393,"2008","2010","urn:uuid:90f33bd2-f5a5-4c4b-b221-7dd3e7ff1e53","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:90f33bd2-f5a5-4c4b-b221-7dd3e7ff1e53","Sue Mauger","sue@inletkeeper.org",61.085,-149.823
+"EnglishBayRiver_1368_2008_2012.csv","EnglishBayRiver",1368,"2008","2012","urn:uuid:7a5ea863-edcd-4136-99d4-e7640d6f979e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:7a5ea863-edcd-4136-99d4-e7640d6f979e","Sue Mauger","sue@inletkeeper.org",59.343,-151.912
+"ChenikCreek_1366_2008_2012.csv","ChenikCreek",1366,"2008","2012","urn:uuid:d9d02e7a-403a-4478-81d4-aa57d4e65b3d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d9d02e7a-403a-4478-81d4-aa57d4e65b3d","Sue Mauger","sue@inletkeeper.org",59.209,-154.19
+"ChuitnaRiver_1394_2008_2011.csv","ChuitnaRiver",1394,"2008","2011","urn:uuid:36578a72-4a59-4c2d-92ac-4ff67605df60","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:36578a72-4a59-4c2d-92ac-4ff67605df60","Sue Mauger","sue@inletkeeper.org",61.101,-151.19
+"TunravikCreek_1371_2014_2014.csv","TunravikCreek",1371,"2014","2014","urn:uuid:105a5d4a-e1da-4724-bf82-3de000998a72","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:105a5d4a-e1da-4724-bf82-3de000998a72","Sue Mauger","sue@inletkeeper.org",59.47933,-157.25899
+"WillowCreek_1409_2008_2011.csv","WillowCreek",1409,"2008","2011","urn:uuid:841abbd0-12f8-40d4-8ec1-b245be1f90bf","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:841abbd0-12f8-40d4-8ec1-b245be1f90bf","Sue Mauger","sue@inletkeeper.org",61.78,-150.161
+"SlikokCreek_1384_2008_2015.csv","SlikokCreek",1384,"2008","2015","urn:uuid:4f0b794e-3bea-41bb-a775-0be3018f4f10","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:4f0b794e-3bea-41bb-a775-0be3018f4f10","Sue Mauger","sue@inletkeeper.org",60.483,-151.131
+"JimCreek_1403_2009_2011.csv","JimCreek",1403,"2009","2011","urn:uuid:3b4fd934-3608-48db-b62d-d9e6a736dae4","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3b4fd934-3608-48db-b62d-d9e6a736dae4","Sue Mauger","sue@inletkeeper.org",61.529,-148.933
+"CrookedCreek_1382_2008_2015.csv","CrookedCreek",1382,"2008","2015","urn:uuid:7d4254ef-3ec0-4c3a-828a-cbc2349854ee","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:7d4254ef-3ec0-4c3a-828a-cbc2349854ee","Sue Mauger","sue@inletkeeper.org",60.316,-151.284
+"NorthForkCampbellCreek_1395_2008_2017.csv","NorthForkCampbellCreek",1395,"2008","2017","urn:uuid:3bd0e32e-e7ef-40cd-adcb-eb6eaa8f8d0a","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3bd0e32e-e7ef-40cd-adcb-eb6eaa8f8d0a","Sue Mauger","sue@inletkeeper.org",61.14,-149.923
+"FunnyRiver_1386_2008_2015.csv","FunnyRiver",1386,"2008","2015","urn:uuid:68e75d93-a17a-4bc1-9491-839fa5f62df2","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:68e75d93-a17a-4bc1-9491-839fa5f62df2","Sue Mauger","sue@inletkeeper.org",60.49,-150.86
+"StariskiCreek_1376_2003_2017.csv","StariskiCreek",1376,"2003","2017","urn:uuid:dd546823-ddb2-4a94-af6b-8db729cdb423","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:dd546823-ddb2-4a94-af6b-8db729cdb423","Sue Mauger","sue@inletkeeper.org",59.851,-151.787
+"NinilchikRiver_1379_2003_2017.csv","NinilchikRiver",1379,"2003","2017","urn:uuid:83574b1d-fb16-4e00-866e-f7313c4a970c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:83574b1d-fb16-4e00-866e-f7313c4a970c","Sue Mauger","sue@inletkeeper.org",60.049,-151.656
+"McNeilRiver_1364_2008_2011.csv","McNeilRiver",1364,"2008","2011","urn:uuid:723bfcb3-13cf-4a3f-a347-16b74c54475c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:723bfcb3-13cf-4a3f-a347-16b74c54475c","Sue Mauger","sue@inletkeeper.org",59.117,-154.279
+"McGearyCreek_1831_2016_2016.csv","McGearyCreek",1831,"2016","2016","urn:uuid:0cb70544-d8b6-409d-8206-467adfe8ddc9","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0cb70544-d8b6-409d-8206-467adfe8ddc9","Sue Mauger","sue@inletkeeper.org",60.42716,-156.74139
+"ChesterCreek_1396_2008_2017.csv","ChesterCreek",1396,"2008","2017","urn:uuid:b010b556-cec6-4913-9bd1-5862ea5c2969","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b010b556-cec6-4913-9bd1-5862ea5c2969","Sue Mauger","sue@inletkeeper.org",61.205,-149.896
+"SquawCreek_1363_2014_2016.csv","SquawCreek",1363,"2014","2016","urn:uuid:01efbe10-2252-429d-8319-87afc96915c4","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:01efbe10-2252-429d-8319-87afc96915c4","Sue Mauger","sue@inletkeeper.org",59.043,-158.54695
+"BigCreek_1784_2014_2016.csv","BigCreek",1784,"2014","2016","urn:uuid:94101119-42ab-48cb-a879-24bebb9adb91","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:94101119-42ab-48cb-a879-24bebb9adb91","Sue Mauger","sue@inletkeeper.org",59.975,-154.846
+"DeceptionCreek_1408_2008_2011.csv","DeceptionCreek",1408,"2008","2011","urn:uuid:ae171ab2-cb5c-48a3-9597-e6c7c79ba7cd","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ae171ab2-cb5c-48a3-9597-e6c7c79ba7cd","Sue Mauger","sue@inletkeeper.org",61.762,-150.034
+"ResurrectionCreek_1392_2008_2012.csv","ResurrectionCreek",1392,"2008","2012","urn:uuid:1c0c079c-8b66-4440-9ff8-57ae63e4ef8b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:1c0c079c-8b66-4440-9ff8-57ae63e4ef8b","Sue Mauger","sue@inletkeeper.org",60.918,-149.643
+"QuartzCreek_1387_2008_2011.csv","QuartzCreek",1387,"2008","2011","urn:uuid:97fe6478-7ba6-4a0b-b86f-c0074e797c2e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:97fe6478-7ba6-4a0b-b86f-c0074e797c2e","Sue Mauger","sue@inletkeeper.org",60.493,-149.7
+"EastForkChulitna_1418_2008_2012.csv","EastForkChulitna",1418,"2008","2012","urn:uuid:dbda555e-39ec-43b7-bf17-9a44e0f25615","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:dbda555e-39ec-43b7-bf17-9a44e0f25615","Sue Mauger","sue@inletkeeper.org",63.145,-149.421
+"YellowCreek_1616_2015_2017.csv","YellowCreek",1616,"2015","2017","urn:uuid:3ea6123b-85ee-4491-bd2c-209dc5fcfcdf","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3ea6123b-85ee-4491-bd2c-209dc5fcfcdf","Sue Mauger","sue@inletkeeper.org",59.1947,-156.703333
+"TheodoreCreek_1398_2008_2012.csv","TheodoreCreek",1398,"2008","2012","urn:uuid:58fb46cb-9c2a-4357-b3c4-621f36127031","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:58fb46cb-9c2a-4357-b3c4-621f36127031","Sue Mauger","sue@inletkeeper.org",61.266,-150.884
+"HiddenCreek_1383_2008_2012.csv","HiddenCreek",1383,"2008","2012","urn:uuid:4856b605-a491-4845-920f-2defa803e5c6","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:4856b605-a491-4845-920f-2defa803e5c6","Sue Mauger","sue@inletkeeper.org",60.439,-150.208
+"SilverSalmonCreek_1367_2014_2016.csv","SilverSalmonCreek",1367,"2014","2016","urn:uuid:397020df-b608-42de-855e-ef28cac6756b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:397020df-b608-42de-855e-ef28cac6756b","Sue Mauger","sue@inletkeeper.org",59.22543,-158.67343
+"NapotoliCreek_1373_2014_2017.csv","NapotoliCreek",1373,"2014","2017","urn:uuid:0c832e97-f6c6-441f-9b39-9bbabb3dec7e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0c832e97-f6c6-441f-9b39-9bbabb3dec7e","Sue Mauger","sue@inletkeeper.org",59.75672,-157.41901
+"TroublesomeCreek_1416_2008_2012.csv","TroublesomeCreek",1416,"2008","2012","urn:uuid:c1f29255-d518-4973-85ad-f9d2ca8de75a","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:c1f29255-d518-4973-85ad-f9d2ca8de75a","Sue Mauger","sue@inletkeeper.org",62.627,-150.227
+"ByersCreek_1417_2008_2012.csv","ByersCreek",1417,"2008","2012","urn:uuid:2abc2201-711c-4da0-ad0e-674a10950c87","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:2abc2201-711c-4da0-ad0e-674a10950c87","Sue Mauger","sue@inletkeeper.org",62.711584,-150.204067
+"FishCreek_1399_2008_2017.csv","FishCreek",1399,"2008","2017","urn:uuid:5e6d7d6d-56d4-4727-81e7-846a5512d991","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5e6d7d6d-56d4-4727-81e7-846a5512d991","Sue Mauger","sue@inletkeeper.org",61.438,-149.781
+"WasillaCreek_1404_2008_2017.csv","WasillaCreek",1404,"2008","2017","urn:uuid:a0f36747-0047-4627-8584-cbe7073beba6","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a0f36747-0047-4627-8584-cbe7073beba6","Sue Mauger","sue@inletkeeper.org",61.553,-149.314
+"BillyHawkCreekEast_1875_2016_2017.csv","BillyHawkCreekEast",1875,"2016","2017","urn:uuid:a7b3c071-3c82-4aa0-a29d-c3c1e3c37b95","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a7b3c071-3c82-4aa0-a29d-c3c1e3c37b95","Meg Perdue","margaret_perdue@fws.gov",66.05495,-156.86208
+"StreamAboveJoshuaGreenRiver_1868_2014_2017.csv","StreamAboveJoshuaGreenRiver",1868,"2014","2017","urn:uuid:f47ea507-37c6-46bb-a177-b471f1ef675d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f47ea507-37c6-46bb-a177-b471f1ef675d","Meg Perdue","margaret_perdue@fws.gov",55.26565,-162.26135
+"StreamAboveKinzarofLagoon_1878_2016_2017.csv","StreamAboveKinzarofLagoon",1878,"2016","2017","urn:uuid:faa64a28-2002-4a6e-973f-a4a6c8fc35ff","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:faa64a28-2002-4a6e-973f-a4a6c8fc35ff","Meg Perdue","margaret_perdue@fws.gov",55.29881,-162.6624
+"PinnellCreek_1623_2015_2017.csv","PinnellCreek",1623,"2015","2017","urn:uuid:65a01774-dd1c-44c8-a8ad-b8694f291e1d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:65a01774-dd1c-44c8-a8ad-b8694f291e1d","Bill Pyle","Bill_Pyle@fws.gov",57.31556,-154.20729
+"AyakulikRiver_1151_2005_2007.csv","AyakulikRiver",1151,"2005","2007","urn:uuid:20196941-27ef-4c8e-8f7b-56e488ecc6c7","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:20196941-27ef-4c8e-8f7b-56e488ecc6c7","Meg Perdue","margaret_perdue@fws.gov",57.233183,-154.411967
+"KanutiKilolitnaRiver_1156_2010_2011.csv","KanutiKilolitnaRiver",1156,"2010","2011","urn:uuid:dccc2131-99dd-462f-924f-9b128c72e609","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:dccc2131-99dd-462f-924f-9b128c72e609","Meg Perdue","margaret_perdue@fws.gov",65.991733,-151.868483
+"AlligatorHoleCenter_1864_2014_2017.csv","AlligatorHoleCenter",1864,"2014","2017","urn:uuid:945de6b1-94d9-43ba-a164-31b99d95b649","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:945de6b1-94d9-43ba-a164-31b99d95b649","Meg Perdue","margaret_perdue@fws.gov",55.14309,-162.94273
+"WillowLake_1872_2016_2017.csv","WillowLake",1872,"2016","2017","urn:uuid:3b531499-6200-489d-86c8-0f9295ac2093","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:3b531499-6200-489d-86c8-0f9295ac2093","Meg Perdue","margaret_perdue@fws.gov",65.69837,-156.07785
+"HolonadaCreek_1834_2010_2015.csv","HolonadaCreek",1834,"2010","2015","urn:uuid:8abe29b2-f061-4965-8074-e2ad50845422","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:8abe29b2-f061-4965-8074-e2ad50845422","Meg Perdue","margaret_perdue@fws.gov",66.029167,-152.13028
+"AkaluraRiver_1149_2004_2007.csv","AkaluraRiver",1149,"2004","2007","urn:uuid:522c4e0c-974f-402b-8f62-89f0b7b36c75","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:522c4e0c-974f-402b-8f62-89f0b7b36c75","Meg Perdue","margaret_perdue@fws.gov",57.166935,-154.2287
+"OMalleyRiver_1880_2015_2017.csv","OMalleyRiver",1880,"2015","2017","urn:uuid:4450cce1-1bfc-40e5-a1ab-eed936b9ef2e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:4450cce1-1bfc-40e5-a1ab-eed936b9ef2e","Bill Pyle","Bill_Pyle@fws.gov",57.27664,-153.993612
+"AyakulikRiver_1619_2015_2017.csv","AyakulikRiver",1619,"2015","2017","urn:uuid:f144981e-3b10-4c04-89d1-7bc6222af8c0","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f144981e-3b10-4c04-89d1-7bc6222af8c0","Bill Pyle","Bill_Pyle@fws.gov",57.238657,-154.404393
+"FallCreek_1930_2015_2017.csv","FallCreek",1930,"2015","2017","urn:uuid:60f7e73f-341b-48d4-9233-717ce6d07e80","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:60f7e73f-341b-48d4-9233-717ce6d07e80","Bill Pyle","Bill_Pyle@fws.gov",57.275132,-153.984317
+"StreamAboveKinzarofLagoon_1849_2016_2017.csv","StreamAboveKinzarofLagoon",1849,"2016","2017","urn:uuid:719c78b7-3318-48c8-920b-e568a3bba3b6","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:719c78b7-3318-48c8-920b-e568a3bba3b6","Meg Perdue","margaret_perdue@fws.gov",55.2935,-162.67407
+"ScottieCreek_1153_2006_2013.csv","ScottieCreek",1153,"2006","2013","urn:uuid:239e0b09-23e9-4991-89c4-81eb0559d584","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:239e0b09-23e9-4991-89c4-81eb0559d584","Meg Perdue","margaret_perdue@fws.gov",62.6386,-141.029051
+"StreamAboveKinzarofLagoon_1877_2014_2017.csv","StreamAboveKinzarofLagoon",1877,"2014","2017","urn:uuid:e18a172d-fa01-4284-949a-d347ad0473ba","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e18a172d-fa01-4284-949a-d347ad0473ba","Meg Perdue","margaret_perdue@fws.gov",55.27654,-162.54955
+"KarlukRiver_1152_2004_2007.csv","KarlukRiver",1152,"2004","2007","urn:uuid:c5a0de48-daff-4c3a-9860-bf8fd469fb6e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:c5a0de48-daff-4c3a-9860-bf8fd469fb6e","Meg Perdue","margaret_perdue@fws.gov",57.44889,-154.14
+"AkaluraLake_1617_2011_2017.csv","AkaluraLake",1617,"2011","2017","urn:uuid:55cff15b-9d0f-44a9-8b8c-731931b7ec42","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:55cff15b-9d0f-44a9-8b8c-731931b7ec42","Bill Pyle","Bill_Pyle@fws.gov",57.186133,-154.218852
+"DakliWheelerCreek_1874_2016_2017.csv","DakliWheelerCreek",1874,"2016","2017","urn:uuid:592d4c87-2c8d-49e0-a0fe-66f49e0c45bd","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:592d4c87-2c8d-49e0-a0fe-66f49e0c45bd","Meg Perdue","margaret_perdue@fws.gov",66.12477,-156.26917
+"PaulHansenLake_1871_2014_2017.csv","PaulHansenLake",1871,"2014","2017","urn:uuid:5b57af0c-246a-4670-a77c-008177b500e1","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5b57af0c-246a-4670-a77c-008177b500e1","Meg Perdue","margaret_perdue@fws.gov",55.33917,-162.48331
+"ConnecticutCreek_1621_2015_2017.csv","ConnecticutCreek",1621,"2015","2017","urn:uuid:d2dd2b5e-b0d4-48f1-bf10-da609540589f","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d2dd2b5e-b0d4-48f1-bf10-da609540589f","Bill Pyle","Bill_Pyle@fws.gov",57.26502,-154.314969
+"AkaluraRiver_1618_2015_2017.csv","AkaluraRiver",1618,"2015","2017","urn:uuid:9617779e-8bee-45fa-9a74-700307f1cb41","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9617779e-8bee-45fa-9a74-700307f1cb41","Bill Pyle","Bill_Pyle@fws.gov",57.165445,-154.228271
+"StreamAboveMoffetLagoon_1861_2014_2017.csv","StreamAboveMoffetLagoon",1861,"2014","2017","urn:uuid:b9cab8d5-1d41-4e50-985d-943151aa764d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b9cab8d5-1d41-4e50-985d-943151aa764d","Meg Perdue","margaret_perdue@fws.gov",55.39924,-162.45584
+"StreamAboveMoffetLagoon_1859_2014_2017.csv","StreamAboveMoffetLagoon",1859,"2014","2017","urn:uuid:0e7f7294-1e3f-49ff-a7c2-da5c1a505903","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0e7f7294-1e3f-49ff-a7c2-da5c1a505903","Meg Perdue","margaret_perdue@fws.gov",55.47279,-162.46605
+"StreamAboveLittleJohnLagoon_1851_2014_2017.csv","StreamAboveLittleJohnLagoon",1851,"2014","2017","urn:uuid:d006b62d-d73e-4b6d-8345-9c444212db3f","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d006b62d-d73e-4b6d-8345-9c444212db3f","Meg Perdue","margaret_perdue@fws.gov",55.0123,-162.88914
+"SoutheastCreek_1932_2015_2017.csv","SoutheastCreek",1932,"2015","2017","urn:uuid:d4b92c47-86c8-4fce-9ab9-9e8ee46bb52e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d4b92c47-86c8-4fce-9ab9-9e8ee46bb52e","Bill Pyle","Bill_Pyle@fws.gov",57.230169,-154.26392
+"CascadeCreek_1928_2015_2017.csv","CascadeCreek",1928,"2015","2017","urn:uuid:68d39be3-c1f4-4969-9b00-84e70469a90a","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:68d39be3-c1f4-4969-9b00-84e70469a90a","Bill Pyle","Bill_Pyle@fws.gov",57.277025,-154.00857
+"StreamAboveJoshuaGreenRiver_1866_2014_2017.csv","StreamAboveJoshuaGreenRiver",1866,"2014","2017","urn:uuid:ed87964e-9c11-4899-94df-560e0e8a0b21","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ed87964e-9c11-4899-94df-560e0e8a0b21","Meg Perdue","margaret_perdue@fws.gov",55.27762,-162.41574
+"KoyukukRiver_1835_2015_2016.csv","KoyukukRiver",1835,"2015","2016","urn:uuid:e5c3514f-649e-4899-b091-2160c9381f23","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e5c3514f-649e-4899-b091-2160c9381f23","Meg Perdue","margaret_perdue@fws.gov",66.90806,-151.68083
+"MikesDuckCamp_1863_2014_2017.csv","MikesDuckCamp",1863,"2014","2017","urn:uuid:f6421248-1e70-442e-a18f-ff315194b0d0","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f6421248-1e70-442e-a18f-ff315194b0d0","Meg Perdue","margaret_perdue@fws.gov",55.10995,-162.97447
+"GardinerCreek_1155_2006_2012.csv","GardinerCreek",1155,"2006","2012","urn:uuid:544632af-a9fa-401e-8187-62288c93118e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:544632af-a9fa-401e-8187-62288c93118e","Meg Perdue","margaret_perdue@fws.gov",62.853534,-141.459701
+"KarlukLake_664_2015_2017.csv","KarlukLake",664,"2015","2017","urn:uuid:d3fbbb99-984e-4703-8787-2b221832b7e4","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d3fbbb99-984e-4703-8787-2b221832b7e4","Bill Pyle","Bill_Pyle@fws.gov",57.354247,-154.038362
+"JoshuaGreenRiver_1869_2014_2017.csv","JoshuaGreenRiver",1869,"2014","2017","urn:uuid:0e627f3c-8ffb-47c5-8b52-62a5d5663406","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:0e627f3c-8ffb-47c5-8b52-62a5d5663406","Meg Perdue","margaret_perdue@fws.gov",55.25562,-162.30237
+"StreamAboveMoffetLagoon_1858_2014_2017.csv","StreamAboveMoffetLagoon",1858,"2014","2017","urn:uuid:034cb05d-a558-4077-83bb-8a48980f5d9e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:034cb05d-a558-4077-83bb-8a48980f5d9e","Meg Perdue","margaret_perdue@fws.gov",55.4836,-162.46367
+"PaulHansenLake_1870_2014_2017.csv","PaulHansenLake",1870,"2014","2017","urn:uuid:b44d2d14-cb06-48ac-b466-a612e6f66614","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b44d2d14-cb06-48ac-b466-a612e6f66614","Meg Perdue","margaret_perdue@fws.gov",55.30809,-162.44655
+"LakeNearMorzhovoiBay_1855_2014_2017.csv","LakeNearMorzhovoiBay",1855,"2014","2017","urn:uuid:58101c29-6d96-4a8f-afe9-c1e406afddba","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:58101c29-6d96-4a8f-afe9-c1e406afddba","Meg Perdue","margaret_perdue@fws.gov",54.95546,-163.08583
+"SouthForkKoyukukRiver_1159_2011_2015.csv","SouthForkKoyukukRiver",1159,"2011","2015","urn:uuid:5206e820-43ad-4b97-8694-d8aa032ee149","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5206e820-43ad-4b97-8694-d8aa032ee149","Meg Perdue","margaret_perdue@fws.gov",66.851517,-151.09515
+"KanutiRivertributary_1157_2010_2015.csv","KanutiRivertributary",1157,"2010","2015","urn:uuid:e2f7bc0c-2b90-485b-9def-f219519107c0","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e2f7bc0c-2b90-485b-9def-f219519107c0","Meg Perdue","margaret_perdue@fws.gov",66.206383,-151.086517
+"RedLakeRiver_1624_2015_2017.csv","RedLakeRiver",1624,"2015","2017","urn:uuid:00b49181-12d8-420c-9169-6a7ed1465539","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:00b49181-12d8-420c-9169-6a7ed1465539","Bill Pyle","Bill_Pyle@fws.gov",57.267623,-154.411204
+"RedSalmonCreek_1865_2014_2017.csv","RedSalmonCreek",1865,"2014","2017","urn:uuid:f18ddff7-1952-4b17-9854-2aa59b6a3216","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f18ddff7-1952-4b17-9854-2aa59b6a3216","Meg Perdue","margaret_perdue@fws.gov",55.28184,-162.77367
+"CanyonCreek_1620_2015_2017.csv","CanyonCreek",1620,"2015","2017","urn:uuid:fc6bcda2-11d7-4508-8955-a2de6ee4592d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:fc6bcda2-11d7-4508-8955-a2de6ee4592d","Bill Pyle","Bill_Pyle@fws.gov",57.278472,-153.991389
+"EastForkThumbRiver_1929_2015_2017.csv","EastForkThumbRiver",1929,"2015","2017","urn:uuid:998d79e7-3277-4a01-9494-5367560b074d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:998d79e7-3277-4a01-9494-5367560b074d","Bill Pyle","Bill_Pyle@fws.gov",57.350552,-153.972391
+"StreamAboveJoshuaGreenRiver_1854_2014_2017.csv","StreamAboveJoshuaGreenRiver",1854,"2014","2017","urn:uuid:90020b11-f4ca-4683-9eed-5a8e15dd3f0d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:90020b11-f4ca-4683-9eed-5a8e15dd3f0d","Meg Perdue","margaret_perdue@fws.gov",55.31075,-162.27695
+"StreamAboveLittleJohnLagoon_1850_2014_2017.csv","StreamAboveLittleJohnLagoon",1850,"2014","2017","urn:uuid:b8ce01d8-950f-4dc2-b013-e9f099abc2b5","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:b8ce01d8-950f-4dc2-b013-e9f099abc2b5","Meg Perdue","margaret_perdue@fws.gov",55.00051,-162.89305
+"CanneryCreek_1857_2014_2017.csv","CanneryCreek",1857,"2014","2017","urn:uuid:9b045d63-9f7c-43da-b16e-f80dd6e02f62","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:9b045d63-9f7c-43da-b16e-f80dd6e02f62","Meg Perdue","margaret_perdue@fws.gov",55.04144,-162.96106
+"DesperCreek_1154_2006_2012.csv","DesperCreek",1154,"2006","2012","urn:uuid:d9db95c2-a1d6-44e8-9f72-aa3273bdeb08","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d9db95c2-a1d6-44e8-9f72-aa3273bdeb08","Meg Perdue","margaret_perdue@fws.gov",62.662117,-141.063632
+"StreamAboveNormaBay_1862_2014_2017.csv","StreamAboveNormaBay",1862,"2014","2017","urn:uuid:6bd59cef-44d7-4509-b828-2c6a72188be1","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6bd59cef-44d7-4509-b828-2c6a72188be1","Meg Perdue","margaret_perdue@fws.gov",55.15924,-163.02812
+"StreamAboveJoshuaGreenRiver_1852_2014_2017.csv","StreamAboveJoshuaGreenRiver",1852,"2014","2017","urn:uuid:140755f3-350a-4c78-8ae2-3259cfed292d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:140755f3-350a-4c78-8ae2-3259cfed292d","Meg Perdue","margaret_perdue@fws.gov",55.33707,-162.31947
+"WillowLake_1873_2016_2017.csv","WillowLake",1873,"2016","2017","urn:uuid:a09ba0b4-93bb-44a4-801b-6b4a334825a8","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a09ba0b4-93bb-44a4-801b-6b4a334825a8","Meg Perdue","margaret_perdue@fws.gov",65.6861,-156.08475
+"LakeNearKinzarofLagoon_1848_2016_2017.csv","LakeNearKinzarofLagoon",1848,"2016","2017","urn:uuid:99b3d7b0-a579-4322-a3a8-115f0a7870e9","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:99b3d7b0-a579-4322-a3a8-115f0a7870e9","Meg Perdue","margaret_perdue@fws.gov",55.31153,-162.66313
+"EgegikRiver_1833_2015_2016.csv","EgegikRiver",1833,"2015","2016","urn:uuid:d792f4ac-e8cf-4d01-beca-e4a8b9843eff","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d792f4ac-e8cf-4d01-beca-e4a8b9843eff","Meg Perdue","margaret_perdue@fws.gov",58.03972,-156.84583
+"BillyHawkCreekWest_1876_2016_2017.csv","BillyHawkCreekWest",1876,"2016","2017","urn:uuid:96ce184a-4a9e-4e17-8989-1294bcdc2e76","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:96ce184a-4a9e-4e17-8989-1294bcdc2e76","Meg Perdue","margaret_perdue@fws.gov",66.06685,-157.2323
+"DogSalmonRiver_1150_2004_2007.csv","DogSalmonRiver",1150,"2004","2007","urn:uuid:caadf49d-e91a-4e79-824c-a26eb1269768","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:caadf49d-e91a-4e79-824c-a26eb1269768","Meg Perdue","margaret_perdue@fws.gov",57.205867,-154.0676
+"StreamAboveMorzhovoiBay_1856_2014_2017.csv","StreamAboveMorzhovoiBay",1856,"2014","2017","urn:uuid:04af7061-2446-4832-a3ab-e51a2639ece5","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:04af7061-2446-4832-a3ab-e51a2639ece5","Meg Perdue","margaret_perdue@fws.gov",54.98951,-163.11795
+"RedLake_663_2015_2017.csv","RedLake",663,"2015","2017","urn:uuid:449d77a7-222b-451d-b7df-68db0184982b","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:449d77a7-222b-451d-b7df-68db0184982b","Bill Pyle","Bill_Pyle@fws.gov",57.251546,-154.310376
+"StreamAboveJoshuaGreenRiver_1867_2014_2017.csv","StreamAboveJoshuaGreenRiver",1867,"2014","2017","urn:uuid:f2b30c2f-397a-46f8-babc-268bdae7e652","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:f2b30c2f-397a-46f8-babc-268bdae7e652","Meg Perdue","margaret_perdue@fws.gov",55.18564,-162.37518
+"StreamAboveMoffetLagoon_1860_2014_2017.csv","StreamAboveMoffetLagoon",1860,"2014","2017","urn:uuid:216b9eea-3593-4926-817a-53f591fbeca5","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:216b9eea-3593-4926-817a-53f591fbeca5","Meg Perdue","margaret_perdue@fws.gov",55.44677,-162.46875
+"MeadowCreek_1879_2015_2016.csv","MeadowCreek",1879,"2015","2016","urn:uuid:ac533228-ff73-4bbd-8b50-b6d3ca4c840e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:ac533228-ff73-4bbd-8b50-b6d3ca4c840e","Bill Pyle","Bill_Pyle@fws.gov",57.298815,-154.04315
+"HorseMarineLake_1622_2015_2017.csv","HorseMarineLake",1622,"2015","2017","urn:uuid:821980a9-45d7-48d4-a66e-190e86116d9d","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:821980a9-45d7-48d4-a66e-190e86116d9d","Bill Pyle","Bill_Pyle@fws.gov",57.121187,-153.913394
+"KanutiRiver_1158_2010_2014.csv","KanutiRiver",1158,"2010","2014","urn:uuid:6914754e-0172-4f7b-8b2c-a7424c263135","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6914754e-0172-4f7b-8b2c-a7424c263135","Meg Perdue","margaret_perdue@fws.gov",66.29645,-151.1162
+"LongLakeCreek_1591_2008_2015.csv","LongLakeCreek",1591,"2008","2015","urn:uuid:66040861-9764-4751-9de1-679aa9037f88","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:66040861-9764-4751-9de1-679aa9037f88","Trey Simmons","Trey_Simmons@nps.gov",61.377462,-143.313945
+"RockCreekDENA_1611_2009_2013.csv","RockCreekDENA",1611,"2009","2013","urn:uuid:58db45fe-9b8b-49ff-b7e4-d17eeadc43b8","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:58db45fe-9b8b-49ff-b7e4-d17eeadc43b8","Trey Simmons","Trey_Simmons@nps.gov",63.724654,-148.967087
+"IglooCreek_1608_2008_2017.csv","IglooCreek",1608,"2008","2017","urn:uuid:00cca691-df9e-4d9e-b5e7-08baa7b741e6","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:00cca691-df9e-4d9e-b5e7-08baa7b741e6","Trey Simmons","Trey_Simmons@nps.gov",63.608065,-149.588531
+"EFToklatTrib_1606_2009_2017.csv","EFToklatTrib",1606,"2009","2017","urn:uuid:150c94b7-c0c5-4129-b865-f9e3cc63c042","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:150c94b7-c0c5-4129-b865-f9e3cc63c042","Trey Simmons","Trey_Simmons@nps.gov",63.557071,-149.780918
+"GorgeCreekSpring_1601_2011_2017.csv","GorgeCreekSpring",1601,"2011","2017","urn:uuid:87a5790c-b1db-430e-b220-b2c54160a638","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:87a5790c-b1db-430e-b220-b2c54160a638","Trey Simmons","Trey_Simmons@nps.gov",63.432186,-150.297092
+"PacoCreek_1596_2011_2017.csv","PacoCreek",1596,"2011","2017","urn:uuid:1f3eb5e2-4c64-4580-af5f-5097a598f793","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:1f3eb5e2-4c64-4580-af5f-5097a598f793","Trey Simmons","Trey_Simmons@nps.gov",62.533041,-143.284538
+"CaribouCreek_1599_2008_2011.csv","CaribouCreek",1599,"2008","2011","urn:uuid:98a97709-625f-493e-9dd4-61bd059c8160","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:98a97709-625f-493e-9dd4-61bd059c8160","Trey Simmons","Trey_Simmons@nps.gov",62.573112,-143.517448
+"JackCreek_1594_2008_2017.csv","JackCreek",1594,"2008","2017","urn:uuid:63e0b875-b40f-4018-8403-a682bbf48efa","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:63e0b875-b40f-4018-8403-a682bbf48efa","Trey Simmons","Trey_Simmons@nps.gov",62.463777,-143.104792
+"LittleJackCreek_1597_2008_2017.csv","LittleJackCreek",1597,"2008","2017","urn:uuid:c0d0519c-52d3-42c1-bc4d-5ce99e9cac31","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:c0d0519c-52d3-42c1-bc4d-5ce99e9cac31","Trey Simmons","Trey_Simmons@nps.gov",62.547146,-143.331355
+"TattlerCreek_1607_2009_2017.csv","TattlerCreek",1607,"2009","2017","urn:uuid:2014e846-14ad-44ed-8a1e-2a489ba36ebc","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:2014e846-14ad-44ed-8a1e-2a489ba36ebc","Trey Simmons","Trey_Simmons@nps.gov",63.56778,-149.641239
+"GilahinaRiver_1592_2008_2015.csv","GilahinaRiver",1592,"2008","2015","urn:uuid:5d539516-1a56-4da6-aba2-1d420ec86ecd","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5d539516-1a56-4da6-aba2-1d420ec86ecd","Trey Simmons","Trey_Simmons@nps.gov",61.438616,-143.718336
+"SanctuaryRiver_1609_2008_2017.csv","SanctuaryRiver",1609,"2008","2017","urn:uuid:06ede465-5e36-4e9a-878a-c357861bd40e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:06ede465-5e36-4e9a-878a-c357861bd40e","Trey Simmons","Trey_Simmons@nps.gov",63.719469,-149.477517
+"WonderLakeInflow_1613_2012_2017.csv","WonderLakeInflow",1613,"2012","2017","urn:uuid:a8997886-7805-464e-8059-a1c7e6d2adac","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:a8997886-7805-464e-8059-a1c7e6d2adac","Trey Simmons","Trey_Simmons@nps.gov",63.738776,-149.293752
+"LakinaRiver_1590_2008.csv","LakinaRiver",1590,"2008","csv","urn:uuid:5e80b2a2-ba2d-4d76-a573-10f15557bbf2","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:5e80b2a2-ba2d-4d76-a573-10f15557bbf2","Trey Simmons","Trey_Simmons@nps.gov",61.37528,-143.34658
+"RockCreekWRST_1598_2008_2012.csv","RockCreekWRST",1598,"2008","2012","urn:uuid:4c343781-de22-49ae-9b76-6b40dc7627bb","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:4c343781-de22-49ae-9b76-6b40dc7627bb","Trey Simmons","Trey_Simmons@nps.gov",62.565077,-143.432676
+"CrystalCreek_1589_2010_2015.csv","CrystalCreek",1589,"2010","2015","urn:uuid:15ccc37d-c6da-4427-b84b-49191727b29c","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:15ccc37d-c6da-4427-b84b-49191727b29c","Trey Simmons","Trey_Simmons@nps.gov",61.366593,-143.429155
+"HoganCreek_1610_2008_2017.csv","HoganCreek",1610,"2008","2017","urn:uuid:e2746a56-87c3-464b-800f-e7778af2bafd","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:e2746a56-87c3-464b-800f-e7778af2bafd","Trey Simmons","Trey_Simmons@nps.gov",63.722,-149.43224
+"LakeCreekDENA_1603_2008_2017.csv","LakeCreekDENA",1603,"2008","2017","urn:uuid:424c6bd3-6b85-4cdf-b466-242aa6b86131","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:424c6bd3-6b85-4cdf-b466-242aa6b86131","Trey Simmons","Trey_Simmons@nps.gov",63.495915,-150.889937
+"MooseCreek_1605_2008_2017.csv","MooseCreek",1605,"2008","2017","urn:uuid:25014357-0dbb-430b-a99f-c3f59af26754","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:25014357-0dbb-430b-a99f-c3f59af26754","Trey Simmons","Trey_Simmons@nps.gov",63.515788,-150.910531
+"ChalkCreek_1595_2008_2017.csv","ChalkCreek",1595,"2008","2017","urn:uuid:888d0306-b895-472c-9935-ffb0189ffa78","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:888d0306-b895-472c-9935-ffb0189ffa78","Trey Simmons","Trey_Simmons@nps.gov",62.504629,-143.159512
+"LittleStonyCreek_1602_2009_2015.csv","LittleStonyCreek",1602,"2009","2015","urn:uuid:d99d27fa-f0db-40b0-b822-d10c9f939d78","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:d99d27fa-f0db-40b0-b822-d10c9f939d78","Trey Simmons","Trey_Simmons@nps.gov",63.451597,-150.24707
+"RufusCreek_1600_2009_2017.csv","RufusCreek",1600,"2009","2017","urn:uuid:6eecc5e1-ecf8-4a58-a600-28e7c5a54c20","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:6eecc5e1-ecf8-4a58-a600-28e7c5a54c20","Trey Simmons","Trey_Simmons@nps.gov",62.659614,-143.84301
+"SavageRiver_1612_2008_2017.csv","SavageRiver",1612,"2008","2017","urn:uuid:7202d44c-9186-4023-8ae9-d6eff2c6393e","https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn:uuid:7202d44c-9186-4023-8ae9-d6eff2c6393e","Trey Simmons","Trey_Simmons@nps.gov",63.737,-149.297
