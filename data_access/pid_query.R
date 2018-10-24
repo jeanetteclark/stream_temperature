@@ -56,3 +56,5 @@ sites <- sites %>%
   select(AKOATS_ID, Contact_person, Contact_email, Latitude, Longitude)
 
 temp_pids_joined <- left_join(temp_pids, sites)
+
+write.csv(temp_pids_joined, "data_access/data_pids.csv", row.names = F)
