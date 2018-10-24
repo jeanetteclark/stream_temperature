@@ -1,11 +1,10 @@
 ---
-title: "AKOATS and SASAP Stream Temperature"
-
+title: "AKOATS and SASAP Stream Temperature Data"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = F, warning = F, message = F)
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
 ```{r}
@@ -15,68 +14,73 @@ library(tidyr)
 library(dplyr)
 ```
 
-# Temperature Data
+# Monitoring Sites
+
+Click on a monitoring site to view basic information and download the data.
 
 ```{r, message = FALSE, warning = FALSE}
 temp <- tempfile()
-download.file("https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn%3Auuid%3Af6ab206b-312c-4caf-89c8-89eb9d031aac",temp, quiet = T)
+download.file("https://knb.ecoinformatics.org/knb/d1/mn/v2/object/urn%3Auuid%3Af6ab206b-312c-4caf-89c8-89eb9d031aac", temp, quiet = TRUE)
 t <- unzip(temp, exdir = tempfile())
-shapefile <- st_read(t[grep(".shp", t)], quiet = T)
+shapefile <-
+  read_sf(t[grep(".shp", t)]) %>%
+  st_transform(crs = 4326)
 unlink(temp)
-```
 
-```{r}
-sites <- read.csv("../data_access/data_pids.csv") %>% 
-  drop_na()
+# shapefile_rivers <-
+#   read_sf("/home/sjclark/Rivers/sasap_rivs_connected.shp") %>%
+#   filter(StrOrder > 3) %>%
+#   st_transform(crs = 4326)
 
-sites <- st_as_sf(sites, 
-                  coords = c('Longitude', 'Latitude'),
-                  crs = "+init=epsg:4326", remove = F)
-sites <- st_transform(sites, crs = 3338) 
-shapefile <- st_transform(shapefile, crs = 3338)
-```
+sites <-
+  read.csv("../data_access/data_pids.csv") %>%
+  drop_na() %>%
+  st_as_sf(coords = c("Longitude", "Latitude"),
+           crs = "+init=epsg:4326",
+           remove = FALSE) %>%
+  st_transform(crs = 4326)
 
-```{r}
-shapefile <- shapefile %>% sf::st_transform(4326)
+# epsg3338 <- leafletCRS(
+#   crsClass = "L.Proj.CRS",
+#   code = "EPSG:3338",
+#   proj4def =  "+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
+#   resolutions = 2^(16:7))
 
+sites$link <- paste0('<a href="', sites$URL, '">', paste("Download", sites$FileName), '</a>')
 
-epsg3338 <- leaflet::leafletCRS(
-  crsClass = "L.Proj.CRS",
-  code = "EPSG:3338",
-  proj4def =  "+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-  resolutions = 2^(16:7))
-
-```
-
-```{r}
-sites$link <- paste('<a href=', sites$URL, '>', paste("Download", sites$FileName), '</a>')
-
-sites$popup <- paste(sep = "<br/>", sites$link, sites$Waterbody, 
-                     #can't figure out why the year ranges aren't working here
-                     paste(sites$Start_year, "-", sites$End_year), 
+sites$popup <- paste(sep = "<br/>", sites$link, sites$Waterbody,
+                     paste0(sites$Start_Year, "-", sites$End_Year), 
                      sites$Contact_person, sites$Contact_email)
 
-```
+# Palette depends on number of unique contacts
+# count(sites, Contact_person)
+# 12 contacts -> Set3 or Paired
+factpal <- colorFactor("Paired", sites$Contact_person)
 
-```{r}
+m <-
+  #leaflet(options = leafletOptions(crs = epsg3338), width = "100%") %>%
+  leaflet(width = "100%") %>%
+  addProviderTiles(providers$Esri.WorldPhysical) %>%
+  addPolygons(data = shapefile,
+              fillColor = "gray",
+              weight = 1,
+              fillOpacity = 0.1,
+              color = "white") %>%
+  # addPolygons(data = shapefile_rivers,
+  #             fillColor = "gray",
+  #             weight = 1,
+  #             fillOpacity = 0.7,
+  #             color = "black") %>%
+  addCircleMarkers(data = sites,
+                   lat = ~Latitude,
+                   lng = ~Longitude,
+                   fillColor = ~factpal(Contact_person),
+                   stroke = FALSE,
+                   fillOpacity = 1,
+                   radius = 3,
+                   popup = ~popup) %>%
+  setView(lng = -150, lat = 65, zoom = 4)
 
-
-factpal <- colorFactor("Set1", sites$Contact_person)
-
-
-m <- leaflet::leaflet(shapefile, options = leaflet::leafletOptions(crs = epsg3338), width = "100%") %>% 
-  leaflet::addPolygons(fillColor = "gray",
-                             weight = 1,
-                             fillOpacity = 0.7,
-                             color = "white") %>%
-   addCircleMarkers(data = sites, lat = ~Latitude, lng = ~Longitude, 
-                    fillColor = ~factpal(Contact_person),
-                    stroke = F,
-                    fillOpacity = 1,
-                    radius = 3,
-                    popup = ~popup)
-
-  
 m
 ```
 
