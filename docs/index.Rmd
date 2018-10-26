@@ -16,7 +16,7 @@ library(dplyr)
 
 # Monitoring Sites
 
-Click on a monitoring site to view basic information and download the data.
+Click on a monitoring site to view information and download the data.
 
 ```{r, message = FALSE, warning = FALSE}
 temp <- tempfile()
@@ -27,11 +27,6 @@ shapefile <-
   st_transform(crs = 4326)
 unlink(temp)
 
-# shapefile_rivers <-
-#   read_sf("/home/sjclark/Rivers/sasap_rivs_connected.shp") %>%
-#   filter(StrOrder > 3) %>%
-#   st_transform(crs = 4326)
-
 sites <-
   read.csv("../data_access/data_pids.csv") %>%
   drop_na() %>%
@@ -40,46 +35,34 @@ sites <-
            remove = FALSE) %>%
   st_transform(crs = 4326)
 
-# epsg3338 <- leafletCRS(
-#   crsClass = "L.Proj.CRS",
-#   code = "EPSG:3338",
-#   proj4def =  "+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs",
-#   resolutions = 2^(16:7))
-
 sites$link <- paste0('<a href="', sites$URL, '">', paste("Download", sites$FileName), '</a>')
 
 sites$popup <- paste(sep = "<br/>", sites$link, sites$Waterbody,
                      paste0(sites$Start_Year, "-", sites$End_Year), 
                      sites$Contact_person, sites$Contact_email)
 
-# Palette depends on number of unique contacts
+# Palette may depend on number of unique contacts
 # count(sites, Contact_person)
-# 12 contacts -> Set3 or Paired
-factpal <- colorFactor("Paired", sites$Contact_person)
+factpal <- colorFactor("plasma", sites$Contact_person)
 
 m <-
-  #leaflet(options = leafletOptions(crs = epsg3338), width = "100%") %>%
   leaflet(width = "100%") %>%
-  addProviderTiles(providers$Esri.WorldPhysical) %>%
+  addProviderTiles(providers$Esri.WorldTopoMap) %>%
   addPolygons(data = shapefile,
-              fillColor = "gray",
+              fillColor = "white",
+              fillOpacity = 0.01,
+              color = "gray",
               weight = 1,
-              fillOpacity = 0.1,
-              color = "white") %>%
-  # addPolygons(data = shapefile_rivers,
-  #             fillColor = "gray",
-  #             weight = 1,
-  #             fillOpacity = 0.7,
-  #             color = "black") %>%
+              opacity = 0.2) %>%
   addCircleMarkers(data = sites,
                    lat = ~Latitude,
                    lng = ~Longitude,
                    fillColor = ~factpal(Contact_person),
-                   stroke = FALSE,
                    fillOpacity = 1,
+                   stroke = FALSE,
                    radius = 3,
                    popup = ~popup) %>%
-  setView(lng = -150, lat = 65, zoom = 4)
+  setView(lng = -155, lat = 64, zoom = 4)
 
 m
 ```
