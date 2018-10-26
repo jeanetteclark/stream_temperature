@@ -1,0 +1,169 @@
+---
+title: "Reading Stream Temperature Data into R"
+output:
+  html_document:
+    theme: paper
+    highlight: pygment
+    toc: true
+    toc_float: true
+    css: style.css
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE)
+```
+
+The [AKOATS](http://accs.uaa.alaska.edu/aquatic-ecology/akoats) and [SASAP](https://alaskasalmonandpeople.org) stream temperature data is collected from multiple monitoring sites across all regions of Alaska. This vignette describes how to find, filter, download, and read the data using R. All data files are public, standardized .csv files archived at the [Knowledge Network for Biocomplexity](https://knb.ecoinformatics.org/) (KNB).
+
+We will use the following R packages available from CRAN:
+
+```{r}
+# install.packages(c("dataone", "dplyr", "stringr", "readr"))
+library(dataone) # for interfacing with KNB
+library(dplyr) # for filtering and combining data
+library(stringr) # for working with strings
+library(readr) # for reading data
+```
+
+First, we need to set the DataONE Member Node to KNB:
+
+```{r}
+cn <- CNode("PROD")
+knb <- getMNode(cn, "urn:node:KNB")
+```
+
+Next, we need a vector of data package PIDs for the stream temperature data:
+
+```{r}
+pkgs <- c("doi:10.5063/F1028PR9", # Southwest Alaska
+          "doi:10.5063/F10P0X83", # Indian, Salmon, and Taiya Rivers
+          "doi:10.5063/F1W0944C", # USFWS - Fish weirs across Alaska
+          "urn:uuid:6a67fcbc-6a2e-4282-b739-486ec9bb02d0", # Kodiak Island
+          "urn:uuid:e8e9f3f5-9b97-4359-be8f-d712d8c4f6fd", # North Slope
+          "urn:uuid:f69e1996-e46f-4c67-9963-5c0c3bc8671a", # Southwest Alaska
+          "urn:uuid:a98c0f5d-a5e6-49ae-8aa2-132875d35476", # Cook Inlet
+          "urn:uuid:cb0d6944-db7f-438e-8a82-ec4c39972c1b", # USFWS - Across Alaska
+          "urn:uuid:b63d3d3f-f745-425f-a69f-998154895f40") # NPS - Central Alaska
+```
+
+To view data packages online, we append a package PID to the URL stem ``https://knb.ecoinformatics.org/view/``. For example, we can view the Southwest Alaska data package at https://knb.ecoinformatics.org/view/doi:10.5063/F1028PR9.
+
+
+## Finding data
+
+We need to identify the specific data of interest to us. We can submit a query to KNB based on the package PIDs that returns information for data objects documented by a package PID. We primarily want filenames and distribution URLs.
+
+If we already know we want to work with data from one specific package, we submit a query using the package PID:
+
+```{r}
+results <- query(knb,
+                 solrQuery = list(q = paste0("isDocumentedBy:", '\"', pkgs[[1]], '\"', "+AND+formatId:text/csv"),
+                                  fl = "fileName, dataUrl",
+                                  rows = "1000"),
+                 as = "data.frame")
+
+glimpse(results)
+```
+
+The query searches for .csv data objects documented by the package PID and returns filenames and URLs for each object stored in a data.frame.
+
+To identify all stream temperature data objects, and then filter after, we can iterate through the same query using the vector of package PIDs and `lapply()`:
+
+```{r}
+results <- lapply(pkgs, function(pkg) query(knb,
+                                            solrQuery = list(q = paste0("isDocumentedBy:", '\"', pkg, '\"', "+AND+formatId:text/csv"),
+                                                                 fl = "fileName, dataUrl",
+                                                                 rows = "1000"),
+                                            as = "data.frame"))
+```
+
+We can then simplify the list of data.frames into one data.frame using `bind_rows()`:
+
+```{r}
+results <- bind_rows(results)
+glimpse(results)
+```
+
+Now we have a data.frame containing filenames and distribution URLs for each data object.
+
+
+## Filtering data
+
+We can now filter through all available datasets to obtain the data of interest. We can filter based on the standardized information that comprises the filenames: the waterbody name, an AKOATS ID, and a date range when the data was collected. There are also site-level metadata files for each data package describing the site information for each AKOATS ID, including coordinates.
+
+If we want all stream temperature data, then no filtering is needed and we can skip to downloading and reading the data. In either case, it is useful to separate the data from the site-level metadata:
+
+```{r}
+data <- filter(results, !str_detect(fileName, "^SiteLevel*"))
+sites <- filter(results, str_detect(fileName, "^SiteLevel*"))
+# There is also a spot temperature dataset that should be excluded
+data <- filter(data, !str_detect(fileName, "^SpotTemp*"))
+```
+
+### Filtering by AKOATS ID
+
+One way to filter the data is based on the site, using the AKOATS IDs for the sites of interest:
+
+```{r}
+koktuli <- filter(data, str_detect(fileName, "760|761|762|763|1665"))
+glimpse(koktuli)
+```
+
+### Filtering by waterbody name
+
+Alternatively, we can filter by waterbody name:
+
+```{r}
+koktuli <- filter(data, str_detect(fileName, "Koktuli"))
+glimpse(koktuli)
+```
+
+### Filtering by coordinates
+
+Another method of filtering is by coordinates, such as using a bounding box. In order to get the coordinates for each monitoring site, we need to read in the site-level metadata:
+
+```{r}
+site_metadata <- lapply(sites$dataUrl, read_csv)
+# Combine into one data.frame
+site_metadata <- bind_rows(site_metadata)
+```
+
+We can then filter the sites based on coordinates and extract the AKOATS IDs:
+
+```{r}
+box <- filter(site_metadata, Latitude > 69.014 & Latitude < 71.581 & Longitude > -162.532 & Longitude < -143.657)
+ids <- paste(box$AKOATS_ID, collapse = "|")
+```
+
+Now we can filter the data based on the filtered AKOATS IDs:
+
+```{r}
+nslope <- filter(data, str_detect(fileName, ids))
+glimpse(nslope)
+```
+
+
+## Reading data
+
+After filtering and narrowing our focus, we can then read the data of interest into R using one of two methods: reading directly using the URLs or downloading the data to the local filesystem and then reading the local file into R (if we want a local copy of the data).
+
+To read in all data of interest, we can iterate through all the distribution URLs and store the data.frames in a list using `read_csv()` to read the data from a URL and `lapply()` to iterate through the vector of URLs:
+
+```{r}
+# Read directly
+data <- lapply(koktuli$dataUrl, read_csv)
+data <- bind_rows(data)
+glimpse(data)
+```
+```{r, eval = FALSE}
+# Download to local file and read
+dir <- "./stream_temp_data/" # specify folder path
+dest <- paste0(dir, koktuli$fileName) # use existing filenames
+mapply(download.file, url = koktuli$dataUrl, destfile = dest)
+files <- list.files(dir, full.names = TRUE)
+data <- lapply(files, read_csv)
+```
+
+It is usually best to store related datasets in a list, as opposed to separate data.frames, because it is easier to iterate when applying the same processing to each data.frame. Alternatively, we could simplify into one data.frame using `bind_rows(data)` depending on our needs.
+
+The data of interest is now in R and we can begin using it.
