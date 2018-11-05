@@ -9,6 +9,9 @@ Stream temperature data have been collected by various entities, including the A
 
 Data processing is ongoing. The following stream temperature packages are currently publicly available on the KNB:
 
+* [Southeast Alaska Long-term Monitoring Network. 2018. In-situ stream temperature monitoring, Southeast Alaska, 2011-2016. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/view/doi:10.5063/F1FN14DF)
+    + Contact: Scott Harris, Southeast Alaska Long-term Monitoring Network
+
 * [Alaska Center for Conservation Science, University of Alaska Anchorage. 2018. In-situ stream temperature monitoring, Southwest Alaska, 2013-2017. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/view/doi:10.5063/F1028PR9)
     + Contact: Dan Bogan, Alaska Center for Conservation Science
 

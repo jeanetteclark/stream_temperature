@@ -28,7 +28,7 @@ shapefile <-
 unlink(temp)
 
 sites <-
-  read.csv("../data_access/data_pids.csv") %>%
+  read.csv("../data_access/data_pids.csv") %>% # update data_pids.csv after new data packages published
   drop_na() %>%
   st_as_sf(coords = c("Longitude", "Latitude"),
            crs = "+init=epsg:4326",
@@ -71,6 +71,9 @@ m
 
 Metadata for the above data is available in the data packages published on the KNB:
 
+* [Southeast Alaska Long-term Monitoring Network. 2018. In-situ stream temperature monitoring, Southeast Alaska, 2011-2016. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/view/doi:10.5063/F1FN14DF)
+    + Contact: Scott Harris, Southeast Alaska Long-term Monitoring Network
+
 * [Alaska Center for Conservation Science, University of Alaska Anchorage. 2018. In-situ stream temperature monitoring, Southwest Alaska, 2013-2017. Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/view/doi:10.5063/F1028PR9)
     + Contact: Dan Bogan, Alaska Center for Conservation Science
 
@@ -101,3 +104,8 @@ Metadata for the above data is available in the data packages published on the K
 
 * [U.S. Geological Society. 2017. Daily summaries of stream temperature at sites in Alaska, U.S. Geological Survey (USGS). Knowledge Network for Biocomplexity.](https://knb.ecoinformatics.org/view/urn:uuid:48903077-e89d-4e92-9577-8b8c32cc6c7a)
     + Contact: U.S. Geological Society
+
+
+# Reading Stream Temperature Data into R
+
+This [vignette](read_data.html) describes how to read the stream temperature data from these packages into R, including how to filter through to the data of interest. Additionally, a template R script for such purposes can be accessed [here](template.R).
